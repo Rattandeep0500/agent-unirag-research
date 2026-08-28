@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Model files / caches
+*.safetensors
+*.bin
+.cache/
+huggingface/
+transformers_cache/
+
+# Elasticsearch local data
+data/
+logs/
+
+# Large datasets
+*.jsonl
+*.json.gz
+*.tsv
+*.tsv.gz
+
+# Generated experiment outputs
+*.log
+# Local downloaded reranker model
+reproduction/baseline-retriever/dense_reranker_models/multilingual-e5-large/
