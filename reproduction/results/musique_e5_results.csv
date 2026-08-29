@@ -1,0 +1,501 @@
+question_id,question,recall@1,recall@5,recall@10,mrr,first_gold_rank,latency_seconds
+4hop2__161602_474028_88460_21063,There exists a country A that forms a boundary between the host of the 2020 AFC U-23 Championship and the country containing the village of A Don. What is the business that began trading stocks in the winter of 2014 in country A?,1,1,1,1.0,1,39.2608484
+2hop__29893_29898,Which affiliate left the company that owns and operates most of the CBC television stations due to an agreement with CHBC?,1,1,1,1.0,1,36.91947330000001
+4hop1__72247_497223_15840_36014,There is a video game named after the sports association that chooses where the super bowl is held. What was Nintendo's limit on games per developer per year on that game's platform?,0,1,1,0.2,5,37.613409399999995
+3hop1__354480_834494_34088,Where do they hold NASCAR races in the city that is in the same county as the Eric Marcus Municipal Airport?,1,1,1,1.0,1,31.803788199999985
+4hop1__567737_141375_458768_33632,"What day is the feast held in the city containing the headquarters of the company, that owns the record label that released Study in Brown?",0,1,1,0.5,2,31.86541600000001
+4hop1__105002_17130_70784_61381,When was the region immediately north of the area where the country that released Atalia is located and the Persian Gulf established?,0,0,1,0.1,10,35.88698880000001
+2hop__129499_85379,When did the region where Poachie Range is located achieve U.S. statehood?,1,1,1,1.0,1,34.30007290000003
+4hop1__342858_131850_33897_81096,Who won the Indy Car Race in the largest populated city of the state where Yuma's Library District is located?,1,1,1,1.0,1,36.84919739999998
+4hop1__33012_53706_795904_580996,What city shares a border with the place where the person who went to the state known for its Mediterranean climate during the gold rush worked?,0,0,0,0.0,,39.62060650000001
+3hop2__132957_132798_40768,"When did the make of Acura Legend, the company that made toyopet Master and Nissan open US assembly plants?",1,1,1,1.0,1,41.813571000000024
+2hop__96137_62765,Who did the cast member of The Woman in the Window play in the Ten Commendments?,1,1,1,1.0,1,33.80355870000005
+2hop__49887_573255,Who is the spouse of the first king chosen to rule over the Israelites?,0,0,0,0.0,,39.6028551
+4hop1__89530_624859_355213_203322,"What county shares a border with the other county, that contains the city, where the singer of Hungry Eyes in the movie Dirty Dancing, was born?",0,1,1,0.5,2,33.299900500000035
+2hop__80070_89752,What is the largest state in the region where the Handmaid's Tale takes place?,0,0,1,0.14285714285714285,7,38.161949100000015
+2hop__59133_512508,What undertaking included the person who discovered that the number of protons in each element's atoms is unique?,0,1,1,0.3333333333333333,3,42.76441270000009
+4hop1__364476_439408_131976_90181,"What is the deepest part of the ocean, near the state, where the county that holds the city of Winchester is found?",0,1,1,0.5,2,33.80824890000008
+2hop__13731_801817,Where was Mary's betrothed born?,0,1,1,0.5,2,31.93264069999998
+2hop__68158_189357,Where was the first female supreme court justice educated?,0,1,1,0.5,2,37.55727479999996
+2hop__13539_13493,"In 2009, what series of wins did the team who won the first match in the 1943 Copa del Generalissimo achieve?",0,1,1,0.3333333333333333,3,42.403436000000056
+4hop1__444892_32392_823060_610794,In what county is the city that shares a border with the capital of the state where Levi Casey was born?,0,0,0,0.0,,35.02287490000003
+2hop__54651_169233,What award did the singer of Never Had a Friend Like Me in Aladdin receive?,1,1,1,1.0,1,35.58200480000005
+4hop1__342858_131850_33952_33939,What was the population in 1900 of the second largest city in the US state having the Library District of the county containing Yuma?,1,1,1,1.0,1,61.11606740000002
+3hop1__131820_59747_60748,The largest city in the state where WEKL broadcasts had an historic battle that was fought when?,1,1,1,1.0,1,74.11569049999991
+2hop__754682_730690,What movement was Vibullia Alcia Agrippina's child a proponent for?,1,1,1,1.0,1,84.58527809999998
+4hop3__131820_29339_508306_70744,"Which university has more national championships, university of the state having Fort Hill or university of the state whose primary was won by Edwards besides the state having WEKL?",1,1,1,1.0,1,74.68330710000009
+2hop__341305_332933,What is the capital of the county that Pine Springs is located in?,1,1,1,1.0,1,62.69469139999978
+3hop1__567955_503371_21711,When was the Palau de la Generalitat constructed in the city where Martin of the region where Layana is located died?,1,1,1,1.0,1,71.51133429999982
+2hop__142443_768138,Who is the brother of the artist who made Nothin' My Love Can't Fix's album?,1,1,1,1.0,1,69.48259440000015
+3hop1__140786_2053_52946,"When is Celebrity Big Brother coming to the broadcast company that, along with the network of Just Men!?, and ABC, is one of the major broadcasters based in New York?",1,1,1,1.0,1,68.85056959999997
+3hop1__46571_87694_124169,When did the Governor of the city where the Basilica named after the saint holding the knife in the Last Supper is located in end?,0,1,1,0.5,2,76.87421829999994
+2hop__65576_80026,Who played the spoilt character in Charlie and the Chocolate Factory?,0,0,0,0.0,,72.15702080000005
+4hop1__151650_5274_458768_33632,What day is the Feast in the city where the headquarters of the only group larger than Desde El Principio's record label held on?,0,1,1,0.3333333333333333,3,67.36880169999995
+2hop__401710_456439,Who is the spouse of the producer of Dolores Claiborne?,1,1,1,1.0,1,58.38656049999986
+4hop1__9007_698949_157828_239539,The original language of the film titled and about the city of Tito's final resting place is the co-official language of a country. Where are the headquarters for that country's national radio and TV broadcaster?,0,1,1,0.5,2,77.49871980000012
+2hop__17854_17873,What happened to Buckingham Palace after the first monarch to reside there left?,1,1,1,1.0,1,84.80689239999992
+2hop__307719_121900,What college did the 2011 Australian Open - Men's Doubles winner go to?,0,0,0,0.0,,71.10156570000004
+3hop1__358853_339990_54675,"What mountain can you see from Portland, in the state that Raven Creek is located in?",0,1,1,0.5,2,61.78224409999984
+3hop2__89048_809962_66294,Who played who sang is she really going out with him in the composer of speechless movie?,1,1,1,1.0,1,82.96803060000002
+3hop1__68981_91191_16530,Who was appointed arbitrator by the first convert to the faith that is the most common religion in Southeast Asia?,0,0,1,0.16666666666666666,6,92.80986230000008
+4hop2__9988_158985_70784_61381,When was the region immediately north of the region prevailing with the disgrace of the Near East and the site of the most growth in desalination for agricultural use established?,0,1,1,0.3333333333333333,3,71.6805532999997
+2hop__345_59409,Who was the person who purchased Tidal's parent company in 2015 talking about in the song 'Cry?',1,1,1,1.0,1,71.16888010000002
+2hop__64323_55840,Who played the king that was king of england in 1951 in the king's speech?,1,1,1,1.0,1,72.45436610000024
+3hop1__796649_720914_41132,How many times did the plague occur in the city where Flora's painter died?,1,1,1,1.0,1,82.59478040000022
+3hop1__540585_568433_47686,Where do greyhound buses leave from in the location of the headquarters of the production company of Miss Spider's Sunny Patch Kids?,1,1,1,1.0,1,66.78815009999971
+2hop__35137_22899,What age did the writer of The Canon of Medicine learn the entire quran?,0,1,1,0.25,4,78.7716362000001
+2hop__13548_13529,When was the person who Messi's goals in Copa del Rey compared to get signed by Barcelona?,0,0,0,0.0,,79.91129679999995
+2hop__83489_747874,Who is the brother of the player who has won the most bbc sports personality of the year awards?,0,1,1,0.5,2,81.97639440000012
+3hop1__849312_503371_21711,When was the Palau de la Generalitat constructed in the city where Martin from the region where Perdiguera is located died?,1,1,1,1.0,1,55.64042110000037
+2hop__38229_84500,What does the name of the topic that Eisenhower didn't discuss during the campaign stand for?,1,1,1,1.0,1,57.62668640000038
+2hop__2150_78851,Which professional sports team would you not see play a home game in where the Amateur Boxing Golden Gloves takes place?,0,0,0,0.0,,35.894384400000035
+3hop2__103889_30152_20999,How were the people that the Ajuran Empire declared independence from by minting coins expelled from Zaw Win Thet's country?,0,1,1,0.5,2,52.93904539999994
+3hop1__857_846_7870,"Other than at the 1912 block found in the city where the Yongle Emperor met the leader that the edict was addressed to, where else are there lots of bars?",1,1,1,1.0,1,49.61521470000025
+2hop__811015_3300,What season was the performer of Blue Skies on?,1,1,1,1.0,1,37.02148070000021
+4hop1__58323_375563_161848_44231,"During WW2, who was the leader of the country near the country of citizenship of the writer of The Book Thief?",1,1,1,1.0,1,52.4076326000004
+2hop__55552_158105,What two features of Windows 98 were highlighted by the man who announced Windows in 1983?,1,1,1,1.0,1,47.54797069999995
+4hop1__473563_309800_355213_203322,Which county shares border with the county having the birth city of the director of Let the Good Times Roll?,1,1,1,1.0,1,36.05935729999965
+2hop__157251_556157,What river does the system containing Umchabezi River serve as the mouth of?,1,1,1,1.0,1,46.25476529999969
+2hop__84847_21969,When was the 1st governor general of India impeached?,0,1,1,0.25,4,61.982762900000125
+4hop1__129721_32392_823060_610794,What county is the city that shares a border with the state capital of the state where Zubly Cemetery is located in?,1,1,1,1.0,1,39.711249599999974
+2hop__478978_124498,Who is the father of the performer of Je dis aime?,1,1,1,1.0,1,44.70380960000011
+4hop1__105688_17130_70784_61381,The country that Eyal Golan is from lies within a certain region. When was the area that lies immediately to the north of that region established?,1,1,1,1.0,1,26.097398299999895
+2hop__178922_5385,How many people work in the publisher of World Literature Today?,1,1,1,1.0,1,46.30895169999985
+4hop2__5206_39078_8987_8974,Where is the embassy in the only communist country whose military branch helping the Old West's inadequate local police was unprepared for invasion of the country conquered by the Pact?,0,1,1,0.3333333333333333,3,47.572836599999846
+4hop3__673447_132409_223216_35031,"Among the top five largest urban areas in the state Infest's performers were formed, what is the ranking of the city Pathology was formed in?",1,1,1,1.0,1,48.94621009999992
+3hop1__604991_339990_54675,What mountain can you see from Portland in the state where Frozen Run's county is located?,1,1,1,1.0,1,90.4651917000001
+2hop__705035_152093,What label is responsible for the performer of Crazy Love?,1,1,1,1.0,1,27.187328799999705
+2hop__13574_13498,How many UEFA Super Cup awards have been received by the team that has won the treble competitions twice?,0,0,0,0.0,,45.75300070000003
+2hop__840174_78851,which professional sports team would you not see play a home game in the venue that held the 2004 Republican National Convention?,1,1,1,1.0,1,42.54813079999985
+2hop__107601_110222,When is the birthday of the creator of Le ruisseau noir?,1,1,1,1.0,1,30.850098900000376
+2hop__79875_72187,What character in A League of their Own was played by the actress who played Thelma in the movie Thelma and Louise?,0,1,1,0.3333333333333333,3,30.297736400000304
+3hop2__90098_76623_10557,What was the language from which the last name Sylvester originated during the era of the person crowned emperor of the west in 800 CE later known as?,0,1,1,0.25,4,47.987961899999846
+2hop__351045_47134,What is the mascot of the operator of RV Wecoma?,1,1,1,1.0,1,34.05547859999979
+3hop1__694534_160088_49779,Who is the host of Who Wants to be a Millionaire in the country that MacGruder and Loud's creator is from?,1,1,1,1.0,1,42.24461429999974
+2hop__576118_25719,At the end of which year did tribes from the area where Linear Pottery culture was found invade the Roman Empire?,0,0,1,0.14285714285714285,7,56.98530630000005
+2hop__81659_52835,Who wrote Turn Me On by the singer of Come Away with Me?,1,1,1,1.0,1,45.35608580000007
+4hop2__161602_426860_88460_63559,When was Burma's name changed to that of the country on the natural boundary between the country that hosted the tournament and the country where That Dam is from?,0,0,0,0.0,,38.314997300000414
+3hop1__287291_375759_84283,Who owns the record label that The Tri-Tone Fascination's performer belongs to?,1,1,1,1.0,1,29.76907230000006
+2hop__136179_13529,When was the player that Iglesia Maradoniana is named after signed by Barcelona?,1,1,1,1.0,1,42.43588699999964
+3hop1__52222_40769_64047,When did the luxury division of the biggest automobile company in the world change the body style of rx 350?,0,1,1,0.3333333333333333,3,43.14039330000014
+2hop__256778_131879,Which is the body of water by the birthplace of Christopher Harris?,0,0,0,0.0,,38.65554939999947
+2hop__58939_213732,Who is the child of Obama's opponent in his first election?,1,1,1,1.0,1,47.623896900000545
+3hop1__104996_160713_77246,What is the meaning of the word that is also a majority religion in the area that became India when the country that release Ankahi was created in Arabic dictionary?,1,1,1,1.0,1,50.01084449999962
+3hop2__127483_84553_10557,What was the language of Auctor of who built a european empire and was crowned emperor of the romans in 800 era later known as?,1,1,1,1.0,1,53.964241599999696
+3hop1__602329_792411_51423,What is the name of the castle in the birth city of the performer who recorded A Day in the Life?,1,1,1,1.0,1,43.8897293
+2hop__71165_807969,What team does the winner of the 2017 BBC African Footballer of the Year play for?,0,0,0,0.0,,38.34524499999952
+4hop2__161602_474028_88460_21062,Can foreign tourists cruise to the country between the nation that hosted 2020 AFC U-23 Championship qualification and the one that contains A Don.?,0,0,1,0.125,8,39.822615699999915
+2hop__68590_27619,Where is the mission for the agency that controls the monetary policy of the EU found?,1,1,1,1.0,1,43.17157679999946
+3hop1__132968_40769_64047,When did the luxury division of the company that made Daihatsu Charmant change the body style of the rx 350?,0,1,1,0.3333333333333333,3,39.26081280000017
+2hop__276637_126089,Who was in charge of the area where Pavilion Welgelegen is located?,1,1,1,1.0,1,36.632996500000445
+3hop1__702699_792411_51423,What is the name of the castle in the birth city of the performer on the album Maria?,0,1,1,0.5,2,39.206805099999656
+3hop1__136016_87694_124169,On what date did Governor of the location where the basilica named after the same saint as Leeds Minster and the head of the catholic religion end?,1,1,1,1.0,1,49.079921900000045
+3hop1__38738_73181_68042,"When did the party that is the current majority in the political assembly that passed a bill giving regulators discretion to prohibit proprietary trades, gain control of the House?",0,0,0,0.0,,84.62491219999993
+3hop1__129499_33897_81096,Who won the 1993 Indy Car race in the city with the largest population in the state where Poachie Range is located?,1,1,1,1.0,1,80.1457132000005
+2hop__748182_78303,"What was the name of one of Top Dog's cast members in the Walker, Texas Ranger?",1,1,1,1.0,1,83.16893960000016
+2hop__67057_52871,"After WWII, when did the US leave the nation it defeated at the Battle of Guadalcanal?",1,1,1,1.0,1,91.81255089999922
+2hop__7855_7794,What is the population in 2010 of they city popular with tourists?,0,0,0,0.0,,76.00665490000029
+4hop3__862_846_613770_7713,How long was the place where the Yongle Emperor greeted who the Ming court thought representatives were sent by the capitol of the city in which Guangling District is located?,1,1,1,1.0,1,109.16799840000022
+3hop2__132957_133264_40768,"When did Nissan, the Acura Legend maker and the Scion Fuse manufacturer open US assembly plants?",1,1,1,1.0,1,107.02051529999972
+4hop1__752321_153080_33897_81096,Who won the Indy car race in the largest populated city in the state where the Pithecanthropus Erectus performer is from?,1,1,1,1.0,1,58.16792400000031
+4hop3__152056_698586_91248_54362,Who burned down the city where Dunn Dunn's artist died in the war after which the government got involved in healthcare?,0,0,1,0.125,8,73.49591229999987
+2hop__95970_152907,What city is the star of Sous les pieds des femmes from?,1,1,1,1.0,1,48.72779080000055
+4hop3__754156_88460_30152_20999,How were the people from whom new coins were a proclamation of independence by the Somali Muslim Ajuran Empire expelled from the country between Thailand and A Lim's country?,1,1,1,1.0,1,81.24325270000008
+2hop__500379_126537,When did Burroughs Corporation merge to form a new corporation?,0,1,1,0.5,2,51.33788170000025
+3hop1__401538_132457_47686,Where do greyhound buses leave from in the city where the performer of We Sweat Blood was formed?,1,1,1,1.0,1,73.15026910000051
+2hop__283298_22402,How many students attend the university employing Marie Theres Fögen?,1,1,1,1.0,1,62.79443710000032
+3hop2__304722_796034_63959,When was the last time the sports team employing Winston Foster beat the 1894-95 FA Cup winner?,1,1,1,1.0,1,59.95261220000066
+2hop__62951_64006,"As a result of the Black Death, how much was the population reduced in the place that the US helped with the Marshall Plan?",1,1,1,1.0,1,57.196119700000054
+2hop__734057_88628,Who did the cast member of Rooster Cogburn play in True Grit?,1,1,1,1.0,1,62.22196089999943
+2hop__153009_44880,Who is the mayor presiding now where Merrill Elam was born?,1,1,1,1.0,1,41.555298700000094
+4hop1__726152_153080_33897_81096,Who won the Indy Car Race in the largest populated city of the state where the performer of Tijuana Moods is from?,1,1,1,1.0,1,53.78548430000046
+4hop1__31333_59747_211319_557671,Which county shares a border with the county where the most populous city in the other state that sent Tennessee the most tourists in 2013 is located?,0,0,0,0.0,,48.10289349999948
+3hop2__87184_36497_76291,"When did the party that controls the House of Representatives right now, take control of the political body that the President calls on to support his USAF appointments?",0,1,1,0.5,2,50.633376300000236
+2hop__865828_377862,Which city is in the same county as Gmina Jordanow?,1,1,1,1.0,1,27.876869700000498
+3hop2__326964_734214_7713,How long had Lynn Hung's birthplace been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,48.5669313999997
+3hop1__390673_228453_10972,When did the headquarters city of Kentucky Tavern's manufacturer elect its first black mayor?,1,1,1,1.0,1,49.109895399999914
+3hop1__573244_339990_15538,When did the state where Kashinka Hollow is located in reinstate the death penalty?,1,1,1,1.0,1,48.81062119999933
+2hop__35137_22943,Where did the author of The Canon of Medicine think Venus was in relation to the sun?,1,1,1,1.0,1,50.40369600000031
+2hop__581084_828685,"Who employs the author of ""Ravenswood: The Steelworkers' Victory and the Revival of American Labor""?",1,1,1,1.0,1,47.47850870000002
+3hop1__835193_160713_77246,In the Arabic dictionary what is the meaning of the word that also refers to the majority religion in India when the country containing Attabad was created?,1,1,1,1.0,1,53.02591630000006
+4hop1__145087_32392_823060_610794,What county is the city that shares a border with the state capital of the state where Velma Barfield was born located in?,0,1,1,0.3333333333333333,3,38.26145079999969
+3hop2__93066_88342_90766,When was the last time the winner of the American League East in 2017 met the Dodgers in the event after which the MLB MVP award is given out?,0,1,1,0.2,5,56.35754240000006
+2hop__747667_52835,Who wrote Turn Me On by the Thinking About You performer?,1,1,1,1.0,1,49.79864480000015
+4hop3__160230_470287_862998_72134,When did the city where Hillcrest High School is located become capitol of the state in which a statue of a Latin mother goddess is located?,0,1,1,0.25,4,29.488145199999963
+2hop__547045_131879,What body of water is by the headquarters location of Wipac?,1,1,1,1.0,1,34.801813400000356
+3hop2__792915_223623_162182,In what region of the country containing the Cái River is the place where John Phan was born?,1,1,1,1.0,1,34.86926950000088
+2hop__132472_684936,The company making ALARM follows which company?,0,1,1,0.5,2,40.6155475000005
+2hop__89657_289940,What team's player had the most league sacks?,0,0,0,0.0,,55.75054120000004
+2hop__434218_29905,How many mandatory transmitters of Don Newman's employer were updated before the deadline?,1,1,1,1.0,1,56.01536279999982
+2hop__36747_18974,Who led the military expedition in the place where the fight between Ming loyalists and Manchus occurred?,0,1,1,0.25,4,72.49560079999992
+4hop3__661103_698586_1926_54362,Who burned down the city where Dunn Dunn's artist died in the war after which black people declined living in NYC?,0,0,1,0.14285714285714285,7,73.11580030000005
+2hop__481809_184805,Who is the child of the horse who also fathered Tompion?,1,1,1,1.0,1,61.707472600000074
+3hop1__92251_34179_23375,"What year saw the publication of the version of the Molotov–Ribbentrop Pact, engineered by the politician who succeeded the leader of the Bolsheviks in the November Revolution?",0,0,1,0.1,10,67.64962780000042
+2hop__15650_77173,Where are the Ozark Mountains located within the state where Robert Patton worked in May 2014?,1,1,1,1.0,1,84.06355799999983
+2hop__463353_66723,Who was the first black student admitted to the school that owns Swayze Field?,1,1,1,1.0,1,62.96102100000007
+2hop__631024_18974,Who led the military expedition in the province where Gong Beibi was born?,1,1,1,1.0,1,60.543713000000025
+3hop1__109422_720914_41132,How many times did the plague occur in the place of death of the creator of The Punishment of Tythus?,1,1,1,1.0,1,59.931616300000314
+4hop1__131820_59747_211319_557671,Which county shares a border with the county where the most populous city in the state where WEKL operates is located?,0,0,0,0.0,,40.56593530000009
+3hop1__524212_831637_91775,What does SEAL stand for in the military group that is part of the branch that operates the USS Askari?,1,1,1,1.0,1,47.08356370000001
+4hop2__71753_261673_70784_79935,When was the region that lies to the north of the where Israel is located and the location of Shamal created?,1,1,1,1.0,1,48.953373100000135
+2hop__104095_40501,How many refugees emigrated to the country that Clara Peeters is a citizen of?,1,1,1,1.0,1,38.95240439999998
+2hop__89460_75184,Who in Back To The Future played the girlfriend of the character played by the actor playing marty's daughter in back to the future 2?,0,0,1,0.16666666666666666,6,32.1229129000003
+2hop__37097_53663,Where is the river where the majority of Egyptians lived located in the world?,1,1,1,1.0,1,37.738710900000115
+2hop__252521_80650,Who played the character in the Santa Clause 3 that has a series named after it that includes Frost at Christmas?,1,1,1,1.0,1,49.320102799999404
+4hop1__88342_49853_128008_46894,Who has the lowest batting average in the league that the team that has won the most titles from the competition they give out MVP awards plays for?,0,0,1,0.1,10,49.9191965
+3hop1__136852_30587_83479,What was the main goal of Germany in the battle of the ocean region adjacent to the city where The Golden Palace is set?,0,0,0,0.0,,47.44767060000049
+3hop1__186307_503371_21711,When was the Palau de la Generalitat constructed in the city where Martin from where Jaulin is located died?,0,0,1,0.125,8,39.638258200000564
+3hop2__132957_593597_40768,"When did the maker of Acura Legend, the manufacturer of Scion Fuse and Nissan open US assembly plants?",1,1,1,1.0,1,44.27098430000024
+3hop1__497845_629431_64412,When did the place where the author of Princeps Pastorum died become its own country?,1,1,1,1.0,1,42.927814699999544
+2hop__312223_144857,What city was the author of What We Talk About When We Talk About love born in?,1,1,1,1.0,1,40.7435445000001
+3hop2__132957_76377_40768,"When did Nissan, the Acura Legend maker and the top selling car brand open US assembly plants?",0,1,1,0.5,2,40.61987250000038
+4hop1__3496_5274_458768_33633,What date did the explorer reach the location of the headquarters of the only company larger than BMG's partner from 2005-2007?,0,0,0,0.0,,49.59432910000032
+2hop__30905_213732,"Who is the child of the person who sponsored the resolution to reopen trade with Vietnam, along with Kerry?",1,1,1,1.0,1,40.52526390000003
+3hop2__90098_84553_10557,"What was the form of the language where the last name Sylvester originates, used in the era of the individual crowned Emperor of the Romans in 800, later known as?",1,1,1,1.0,1,46.95671829999992
+3hop1__161507_160713_77246,What is the meaning of the word that is also a majority religion in the area that became India when the country where Masherbrum is located was created in the Arabic dictionary?,1,1,1,1.0,1,46.5907944999999
+2hop__235471_565925,What record label did the performer of The Place and the Time belong to?,1,1,1,1.0,1,32.527606299999206
+2hop__32541_85460,What is the median household income for people today of the same country as the witness to the Blitz?,1,1,1,1.0,1,36.10492720000002
+2hop__998_25855,What does dell call the feature letting the interface replacing FireWire in later iterations of the iPod drives to remain powered when the computer is off?,1,1,1,1.0,1,36.187777499999356
+3hop1__726561_132457_47686,Where do greyhound buses leave from in the city the performer of Born a Lion formed in?,1,1,1,1.0,1,33.40894230000049
+3hop2__28476_14777_9331,"What dissolved the privileges in Poland of the empire that controlled Estonia during The Great Awakening, the Kingdom that acquired some Thuringian territory in 1815, and the Habsburg Monarchy?",0,0,0,0.0,,39.219123099999706
+2hop__29191_80144,Who became the president of Frederic Chopin's original country in 1990?,0,0,0,0.0,,31.85700519999955
+3hop1__133292_40769_64047,When did the RX 350 from The Hino Dutro creator's luxury division change body style?,1,1,1,1.0,1,33.05634470000041
+2hop__60001_512508,What did the person who discovered that all atoms of an element have the same number of protons participate in?,0,1,1,0.2,5,37.612262000000555
+2hop__487706_40501,How many refugees emigrated to the participant of Battle of Kentish Knock?,1,1,1,1.0,1,30.66038010000011
+4hop1__429751_32392_823060_610794,What county is the city that shares a border with the state capital of the state where Purrysburg is located?,0,0,0,0.0,,26.55454330000066
+3hop1__268450_503371_21711,When was the Palau de la Generalitat built in the city in which died the man called Martin of the region of Spain where Berdejo is located?,1,1,1,1.0,1,26.560367800000677
+2hop__256336_714772,Who is the spouse of a cast member from King of the Mountain?,0,0,0,0.0,,30.82657030000155
+2hop__227031_144857,What is the name of the city where Tess Gallagher's spouse was born in?,0,0,1,0.125,8,28.012999799999307
+3hop1__857_846_7770,Where does the Yangtze River flow in the city where the Yongle emperor greeted the person to whom the edict was addressed?,0,0,0,0.0,,35.55112929999996
+3hop1__390673_228453_86925,What is the manufacturer of the Kentucky Tavern headquarters location saints symbol called?,1,1,1,1.0,1,24.793571799998972
+4hop3__316459_41402_145282_13584,"Besides areas of the country that gained control of Florida after the conflict Charles Edmund Nugent participated in, what other differences are there between Paco Godia's birthplace and Real Madrid?",1,1,1,1.0,1,31.95747929999925
+2hop__62369_84616,"What did the singer of ""Moon River"" in the movie Breakfast at Tiffany win a Tony for?",1,1,1,1.0,1,26.868819000001167
+3hop1__79039_131926_87157,What is the direction of flow of the body of water by the home of the juicy lucy?,1,1,1,1.0,1,28.810442500000136
+2hop__696442_51329,What movie did Lauren Bacall's spouse win his only Oscar?,0,0,1,0.14285714285714285,7,32.85578700000042
+4hop1__17192_17130_70784_61381,When was the region immediately north of the region where the country that secured southern Lebanon is located and the Persian Gulf established?,0,1,1,0.5,2,27.134566200000336
+3hop1__313670_42197_18397,Another world leader said that Vladimir Rapoport's country was imperialist. Where did that leader announce that he would intervene in the Korean conflict?,1,1,1,1.0,1,34.1148430000012
+2hop__73921_807969,The BBC Footballer of the Year is a member of which team?,0,1,1,0.3333333333333333,3,27.63743550000072
+2hop__725233_150107,Who published Communications of the publisher of the Mobile Computing and Communications Review?,1,1,1,1.0,1,25.293842099999893
+3hop2__326964_573858_7713,How long had China Sunergy's headquarters location been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,27.345135300000038
+2hop__83800_747874,Who's the sibling of the player who won the men's wimbledon championship 2016?,0,0,0,0.0,,30.477769699999044
+2hop__57638_72467,What team picked the highest point average holder in NBA history in the NBA draft?,0,0,1,0.16666666666666666,6,35.44629589999931
+4hop3__857_846_613770_7713,How long was the place where the Yongle Emperor greeted the person to whom the edict was addressed the capitol of the area where Guangling District was located?,1,1,1,1.0,1,31.425780600000508
+2hop__367318_7292,"What artist was featured on Smooth Jazz Stations, along with Kenny G and the performer of The Dance?",0,0,0,0.0,,23.71020739999949
+2hop__40970_90367,What was the role of God in the Biblical crossing of the sea where herbivorous fishes have been seen feeding on gelatinous zooplankton?,0,1,1,0.3333333333333333,3,37.57456060000004
+3hop1__147225_30587_83479,What was Germany's goal in the Battle of the ocean adjacent to the city Herbert Saffir died in?,0,0,0,0.0,,27.666969800000516
+2hop__6956_192417,The league the New England Patriots belongs to is an example of what?,0,0,1,0.125,8,29.247708099999727
+3hop2__304722_238553_63959,When was the last time Peter Till's sports team beat the winner of the 1894-95 FA Cup?,1,1,1,1.0,1,33.14031090000026
+3hop1__768500_730460_70315,Where did Katrina hit the hardest in the Toussaint performer's birthplace?,0,1,1,0.5,2,26.453275900001245
+3hop2__781093_467331_162182,In what region of the country where Lam Thao is located is the city where the Zone 5 Military Museum can be found?,1,1,1,1.0,1,33.30091429999993
+2hop__269766_43945,Common Sense which was written by the author of The Age of Reason was an important work because?,1,1,1,1.0,1,34.64227250000113
+2hop__60336_169233,What award did the actor who played Peter Pan in the movie Hook receive?,1,1,1,1.0,1,31.244248200000584
+2hop__445963_6098,Over how many slaves ended up getting emancipated on the birth place of Francis Watson?,1,1,1,1.0,1,34.219550899999376
+2hop__21075_5028,What was the average per capita GVA in 2013 of the country which created Burma's academic system?,0,0,1,0.16666666666666666,6,37.380652899999404
+4hop3__312119_132409_371500_35031,"Among the top five largest urban areas in the state where Getting Away with Murder's performer was formed, where does Veoh's headquarters city rank?",1,1,1,1.0,1,37.690414699998655
+2hop__2613_59409,The rapper who owns Aspiro was inspired by what when writing Song Cry?,0,1,1,0.25,4,33.09048470000016
+2hop__21103_16334,"In a 2010 study, what modern population is most closely related to the group that represents the majority of modern Jewry?",1,1,1,1.0,1,36.34957850000137
+2hop__827940_277334,Which child of the author of One More Time helped adapt it into a play?,1,1,1,1.0,1,35.16718049999872
+2hop__243084_523417,What is the anime that has Seta Sōjirō an instance of?,1,1,1,1.0,1,33.0597429999998
+2hop__58939_189318,Where was Obama's opponent in his first election educated?,1,1,1,1.0,1,34.087793700000475
+3hop2__326964_7845_7713,How long had the home of some of the country's most prominent art groups been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,34.68575369999962
+3hop1__280834_547811_80702,What is the name of the famous bridge in the birthplace of Bajazet's composer?,1,1,1,1.0,1,29.063970600000175
+2hop__821368_14251,What line by a cast member of Doing His Bit is believed to have started the archie nickname?,1,1,1,1.0,1,37.48128869999891
+2hop__223823_29905,How many mandatory transmitters of the Canadian Broadcasting Centre's owner were updated before the deadline?,1,1,1,1.0,1,26.725659499999892
+2hop__123145_66723,who was the first black student admitted to the university that Stewart Patridge attended?,0,1,1,0.5,2,31.273873199999798
+3hop1__159728_91191_156667,What was the name of the spouse of the first convert to the most prevalent religion in Jordan?,0,1,1,0.5,2,39.7930766999998
+3hop1__158139_19788_15107,What percentage of Eritrea adheres to the religion widely practiced where suicides by females are more common in young than old?,1,1,1,1.0,1,37.49640829999953
+2hop__75207_7363,At what local time does the country where Fuser and Alberto meet the indigenous couple traveling to look for work change their clocks for DST?,0,1,1,0.5,2,37.79369310000038
+2hop__528263_865831,In which county is Kimbrough Memorial Stadium located?,1,1,1,1.0,1,29.068346900001416
+2hop__104095_40502,Before this emigration what was the population of Clara Peeters's country of citizenship?,1,1,1,1.0,1,30.965476199999102
+2hop__719184_55227,Who plays the wife of the producer of Here Comes the Boom in Grown Ups?,1,1,1,1.0,1,31.23606210000071
+3hop1__823336_228453_86925,What is the symbol of the Saints from the headquarters location of Ten High's manufacturer called?,1,1,1,1.0,1,29.67169169999943
+2hop__42578_55840,Who played the monarch at the end of WW2 in The King's Speech?,1,1,1,1.0,1,33.1701893999998
+2hop__152700_141308,"What company is the record label for Oh Woman, Oh Why a part of?",1,1,1,1.0,1,31.31234360000053
+4hop2__71753_648517_70784_79935,When was the region immediately north of the region where Israel is located and the location of the Battle of Qurah and Umm al Maradim created?,1,1,1,1.0,1,32.45233300000109
+3hop1__273571_834494_34053,What was the wettest year for the city in the same county as Summit?,1,1,1,1.0,1,37.94643259999975
+2hop__166824_185403,What league does the team that plays in Stadio Ciro Vigorito play for?,1,1,1,1.0,1,39.109793499999796
+2hop__108158_83769,"Who was played by the creator of Push, Nevada in Dazed and Confused?",1,1,1,1.0,1,36.3317621999995
+2hop__37353_23241,"According to Pew in 2010, what percent of Nigeria's population was the people who conquered the Eastern provinces of the Byzantine empire?",0,1,1,0.5,2,40.40591189999941
+4hop3__324979_836463_161616_77103,When did the birthplace of Ah Via Musicom's performer become the capital of the state Knowles is from?,1,1,1,1.0,1,43.99387999999999
+2hop__402530_774333,What other county does the county where Imperial is located share a border with?,1,1,1,1.0,1,35.30204100000083
+3hop1__691197_15840_36014,What was Nintendo's limit on games per developer per year on the platform of Yoshi?,0,1,1,0.5,2,43.149494100000084
+3hop1__9285_5188_6375,"Who was the first person to control a spacecraft, from the country the top-ranking Warsaw Pact operatives came from, despite it being headquartered in the country called the nobilities commonwealth?",0,1,1,0.5,2,50.26925459999984
+2hop__226204_69048,Who is the chief judge of Friday Osanebi's birthplace?,1,1,1,1.0,1,37.11161269999866
+2hop__137061_45752,Why does the place where Step Up Revolution takes place have a duck for a mascot?,0,1,1,0.25,4,44.03166299999975
+3hop1__617062_127905_46894,Who has the lowest batting average in the league that Jim Wilson's team plays for?,0,0,0,0.0,,43.13136259999919
+2hop__115515_779396,Where was the creator of the Lap Engine educated?,1,1,1,1.0,1,38.0396198999988
+4hop2__9988_261673_70784_61381,The country in what was the Near East and bordering the sea over which shamal winds blow was established when?,1,1,1,1.0,1,48.51154630000019
+4hop1__310029_153080_159767_81096,Who won the Indy Car Race in the largest city and capital of the state where the performer of Jazz Portraits: Mingus in Wonderland is from?,1,1,1,1.0,1,42.48390240000117
+3hop1__273571_834494_33939,What was the population in 1900 of the city that shares a county with Summit?,1,1,1,1.0,1,31.688811399999395
+2hop__57638_90991,Who was picked over the player with the highest point average in NBA history in the draft?,0,0,1,0.125,8,48.05176659999961
+4hop1__344155_378185_282674_759393,What is the seat of the county sharing a border with the county with a town to which KRSU is licensed to broadcast?,1,1,1,1.0,1,31.05430929999966
+2hop__620853_22458,What does the name of the organization the Haiti national football team belongs to stand for?,1,1,1,1.0,1,35.84730010000021
+2hop__702496_430061,What county was Tim Dubois born in?,1,1,1,1.0,1,34.4375428000003
+4hop1__567737_141375_458768_33637,How many ethnic minorities were looked at differently in the city where the headquarters of the company that Study in Brown's record label is a part of?,0,1,1,0.25,4,42.55997969999953
+3hop1__609479_503371_21711,When was the Palau de la Generalitat built in the city in which died the man called Martin of the region of Spain where Bijuesca is located?,1,1,1,1.0,1,37.266966299999694
+2hop__41158_22946,Who said one of the greatest thinkers was the person who proposed explanations for the origins of earthquakes and the formation of mountains?,0,1,1,0.3333333333333333,3,49.2415979999987
+2hop__691455_64006,By how much of the population of the region where Baton a feu originated reduced by the black death?,1,1,1,1.0,1,45.8673617000004
+2hop__8496_21567,Who introduced a system of musical notation used during the 14th century in the place where there is no evidence of a Slavic settlement before c. 600 AD?,1,1,1,1.0,1,49.84214719999909
+3hop1__586087_339990_54675,"What mountains can you see from Portland, in the state with the county where McCauley Mountain is located?",1,1,1,1.0,1,35.886433800000304
+3hop1__545624_2053_52946,"When is Celebrity Big Brother coming to the network which, along with ABC and the original broadcaster of Here and Now, is the other major broadcaster based in NY?",1,1,1,1.0,1,37.36846569999943
+4hop2__567956_14670_8987_8529,"Normalization occurred in Country A that invaded Country B because the military branch that Air Defense Artillery is part of was unprepared. when was the word ""Slavs"" used in the national anthem of Country B?",1,1,1,1.0,1,48.96778760000052
+2hop__9223_9237,When did the first mosque open in the place where Tobolar Copra plant is located?,0,0,0,0.0,,43.577712899999824
+3hop2__326964_811351_7713,How long had Lijia Zhang's birthplace been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,41.147755699999834
+2hop__40697_46621,When was the celestial object that eluded efforts to measure oxygen discovered to be the center of the solar system?,0,1,1,0.5,2,48.05046709999988
+3hop1__147135_159767_81096,Who won the Indy car race in the largest city and the state capital of the death state of Cochise?,1,1,1,1.0,1,45.55394239999987
+4hop1__9007_698949_157828_162309,When did the country with a co-official language used in the film titled after the city that is the final resting place of Tito first attend the Olympics games?,0,1,1,0.25,4,47.77284449999934
+3hop1__857_846_7791,How many parties rule the city where the Yongle emperor greeted the person to whom the edict was addressed?,0,0,1,0.125,8,52.93695939999998
+3hop2__304722_466316_63959,When was the last time the team that Arthur James was a member of beat the 1894-95 FA cup winner?,0,0,0,0.0,,44.1835671000008
+3hop2__90327_89854_76291,When did the party that holds the majority in the House of Representatives take control of the organization that approves the members of the U.S. cabinet before their appointment?,0,1,1,0.3333333333333333,3,42.28176279999934
+3hop2__326964_846_7713,How long had the city where the Yongle Emperor greeted the Karmapa been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,44.8068046999997
+2hop__68162_482364,Who was the father of the leader of the Argonauts in the search for the golden fleece?,1,1,1,1.0,1,39.68609319999996
+2hop__358582_189042,What is the record label of the Thrill of a Lifetime performer?,1,1,1,1.0,1,31.73082169999907
+2hop__60229_1783,Who was mayor of New York when the first cake mix came out?,1,1,1,1.0,1,40.76246490000085
+2hop__1845_38366,What is the population of the borough that contains the neighborhood of Riverdale?,0,1,1,0.2,5,36.54613969999991
+4hop1__571599_49925_13759_736921,Where is the district that the person who wanted to reform and address Medardo Joseph Mazombwe's religion preached a sermon on Marian devotion before his death located?,1,1,1,1.0,1,47.81780939999953
+2hop__278022_71701,what year did the Japanese get to city where Wang Yue died and the rest of Guangdong province?,1,1,1,1.0,1,43.20875399999932
+3hop1__617062_127905_87812,When is the opening day of the league that Jim Wilson plays for?,0,0,0,0.0,,41.0426697999992
+4hop2__105527_14670_8987_8974,Country A developed the ZH-29 and invaded Country B because their military branch that the Air Defense Artillery is a branch of was unprepared. Country B was the only communist country to have an embassy where?,1,1,1,1.0,1,43.594679499999984
+2hop__559076_55984,Who wrote the song The Story sung by the performer of Give Up the Ghost?,1,1,1,1.0,1,37.79011360000004
+3hop2__30956_65244_84681,"When did the people who controlled New York before it became an English colony, come to the country where John Kerry's yacht was built?",0,0,0,0.0,,49.645858099998804
+4hop3__426860_88460_30152_20999,How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country where That Dam is found?,0,0,1,0.1,10,53.43114650000098
+2hop__809096_491515,Where did William Beckford's child die?,1,1,1,1.0,1,39.11073849999957
+3hop2__326964_265410_7713,How long had Anhua Gao's birthplace been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,40.63994179999827
+3hop1__108833_720914_41132,How many times did the plague occur in the city where the painter of The Bacchanal of the Andrians died?,1,1,1,1.0,1,45.2158713000008
+2hop__444265_82341,In what part of Florida is Tom Denney's birthplace located?,1,1,1,1.0,1,32.122895500000595
+2hop__476927_31270,How far is Hod Lisenbee's place of death in TN from Nashville?,1,1,1,1.0,1,40.71234000000004
+3hop1__518381_709625_84283,Who owns the record label of the Lovin' All Night performer?,1,1,1,1.0,1,31.8621789000008
+2hop__80546_75184,Who played the girlfriend of the actor who played Marlene McFly in Back to the Future?,0,1,1,0.3333333333333333,3,32.41658829999869
+3hop1__804367_160713_77246,What is the meaning of the word that is also the majority religion in the area that became India when the country where Kot Haibat is located was created in the Arabic dictionary?,1,1,1,1.0,1,46.48867279999831
+2hop__85713_72187,"The actor who played Thelma in ""Thelma and Louise"" also played which character in ""A League of Their Own""?",1,1,1,1.0,1,33.85734539999976
+4hop1__93601_46196_497223_15840,What is the abbreviated name of the exclusive platform of the video game named for the league with a halftime event just before the publishers clearing house sweepstakes drawing.,0,1,1,0.5,2,34.84392829999888
+3hop1__161433_33952_33939,"In 1900, what was the population of the second largest city, in the state that the cross-border transactions committee focuses on?",0,1,1,0.25,4,45.04313210000146
+3hop1__109196_720914_27537,Why did Roncali leave the place of death of the creator of Malchiostro Annunciation?,1,1,1,1.0,1,45.10079059999953
+3hop2__101905_30152_20999,How were the people that the Ajuran Empire declared independence from by minting coins expelled from David Htan's country?,0,0,1,0.16666666666666666,6,50.564160699999775
+2hop__30390_36634,How many groups were involved in the war when Hayek started working on Abuse of Reason?,1,1,1,1.0,1,51.75467890000073
+3hop2__20335_82856_9331,"What dissolved the privileges in Poland of the empire that helped the patriots during the Revolutionary War, the Kingdom that acquired some Thuringian territory in 1815, and the Habsburg Monarchy?",0,0,1,0.14285714285714285,7,48.027216399999816
+3hop1__120881_2053_52946,"When is Celebrity Big Brother coming to the network which, along with ABC and the network which released Stand Against Fear, is the other major broadcaster based in NY?",1,1,1,1.0,1,38.67767500000082
+2hop__2299_1783,Who was New York's mayor during the book's historical period?,1,1,1,1.0,1,37.2801038000016
+3hop1__801799_547811_41132,How many times did plague occur in the birth city of the composer of La fida ninfa?,1,1,1,1.0,1,46.47172230000069
+4hop2__161602_426860_88460_20985,what is the largest city the country that is a natural boundary between the country that hosted the tournament and the country That Dam is located?,0,0,0,0.0,,42.76608069999929
+2hop__31585_61048,Who was the US physicist who directed the project that developed the first atomic bomb at the same place where Feynman worked on Water Boiler?,1,1,1,1.0,1,47.678151300000536
+3hop1__418091_15840_36002,What were Genesis's advantages over the platform that plays Bigfoot?,0,1,1,0.5,2,44.58921369999916
+3hop1__617062_127905_92225,When is the opening day of the season of the league that Jim Wilson's team plays for?,0,0,0,0.0,,42.835423500000616
+3hop2__809962_89048_66294,Who played the man named identically to the singer of Is She Really Going Out With Him in the movie about the composer of Speechless?,1,1,1,1.0,1,52.904309999999896
+2hop__152027_141308,What is the parent company of the record label releasing Cold Turkey?,1,1,1,1.0,1,28.481747499999983
+4hop3__661103_698586_91248_54362,Who burned down the city where Dunn Dunn's recording artist died during the conflict after which the government got involved in healthcare?,0,1,1,0.3333333333333333,3,40.04113109999889
+4hop3__129682_29339_508306_70744,Who won more national championships between the university that contains Fort Hill and the university of the state where Edwards won the primary besides the state where WSFN is located?,1,1,1,1.0,1,40.34951650000039
+3hop1__145290_443779_52195,Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?,1,1,1,1.0,1,42.475963499999125
+4hop1__152028_141441_458768_33633,When did the explorer reach the headquarters location of the group Con-Test's record label is part of?,0,1,1,0.2,5,38.764597699999285
+3hop1__128516_30587_83479,What was Germany's main goal in the battle of the ocean adjacent to the US city having WEDR?,0,1,1,0.2,5,38.26014700000087
+2hop__63214_319330,Who is the child of the president under whom prohibition occurred?,0,1,1,0.3333333333333333,3,44.05693760000031
+2hop__796221_18803,What did MV Rapana's owner announce it was the process of doing in April 2010?,1,1,1,1.0,1,40.47458220000044
+2hop__810411_159673,"What other film is the cast member of Now You See Him, Now You Don't a character for?",1,1,1,1.0,1,43.01710439999988
+2hop__669160_139339,What was the director of Addicted to Love nominated for?,1,1,1,1.0,1,44.311794799999916
+2hop__53147_7298,"Along with the subject of Katy Perry's The One Who Got Away, what notable pop artist started out his career on adult contemporary radio?",1,1,1,1.0,1,40.35504799999944
+3hop1__635099_131926_89261,Where does the body of water by the city where Write This Down was formed empty into the Gulf of Mexico?,1,1,1,1.0,1,46.09236260000034
+3hop1__346416_831637_91775,"What does seal stand for in the U.S. military branch that operates a list of destroyer classes, and also operates NC?",1,1,1,1.0,1,39.66916189999938
+2hop__45126_807969,Which team is the highest goal scorer in EPL this season a member of?,0,0,0,0.0,,42.407546500000535
+2hop__64175_90973,Who did the original voice of the character Mila Kunis plays on Family Guy?,0,1,1,0.5,2,42.37262099999862
+2hop__517145_367341,Who is the child of the cast member of Green Ice?,1,1,1,1.0,1,36.515756599999804
+4hop1__525129_315334_131926_89261,"Where into the Gulf of Mexico does the body of water by the city where the Lots More Blues, Rags and Hollers performer was formed empty?",0,1,1,0.5,2,46.093214599999556
+2hop__6745_6731,What two dialects does the /u/ remaining distinct in this form of Catalan include?,0,1,1,0.25,4,44.431652200000826
+2hop__450600_158262,When did the author of The Rise and Fall of the Confederate Government end his fight in the Mexican-American War?,1,1,1,1.0,1,44.03520679999929
+2hop__683835_709167,What award did the author of The Red Tree receive?,1,1,1,1.0,1,40.87696010000036
+2hop__39954_80303,What is the name of the game reserve in the country where hunters spend 50 to 100 times more than the average ecotourist?,1,1,1,1.0,1,47.30362299999979
+3hop2__38242_92991_76291,When did the party with majorities in Congress prior to the 1954 elections gain control of the body which determines rules of the US House and US Senate?,0,1,1,0.5,2,46.29405600000064
+4hop2__161602_426860_88460_86452,When did Burma change its name to the country on the natural boundary between the country that hosted the tournament and the country where That Dam is from?,1,1,1,1.0,1,43.70326510000086
+3hop2__57233_105140_56883,"During the war in which The Things They Carried is set, when was conscription introduced by the country where the film Grievous Bodily Harm was later released?",1,1,1,1.0,1,45.333751199999824
+4hop1__151903_5274_458768_33637,How many ethnic minorities were looked at differently where the only group larger than the record label of The Lost Trident Sessions is headquartered?,1,1,1,1.0,1,43.31902789999913
+2hop__135336_461854,Who was Suzanne Farrington's mother's spouse?,1,1,1,1.0,1,38.8171155
+2hop__813461_31270,How many miles are there between Nashville and the place in Tennessee where Mark Day was born?,1,1,1,1.0,1,39.19306699999834
+4hop1__3496_5274_458768_33677,When was the most recent Bicycle Friendly Community Award given to the city where the headquarters of the only group larger than the company BMG partnered with in 2005-07?,1,1,1,1.0,1,44.84836730000097
+2hop__63982_768138,Who is the sibling of the actor who played Joey on Gimme a Break?,0,1,1,0.5,2,37.660083900000245
+2hop__554167_451128,Who is the child of the Victim of Romance performer?,1,1,1,1.0,1,39.34627890000047
+3hop2__132957_800948_40768,"When did the maker of the Acura Legend, the employer of Katsuaki Watanabe, and Nissan open US assembly plants?",1,1,1,1.0,1,43.74000429999978
+2hop__307218_161450,In what part of the country is Minudasht County?,1,1,1,1.0,1,31.992920499998945
+2hop__538735_3296,What former contestant did the performer of Addicted ask to marry him?,1,1,1,1.0,1,42.24526430000151
+3hop2__222979_132536_40768,"When did Nissan, the HPD ARX-03 maker and the Scion owner open US assembly plants?",1,1,1,1.0,1,43.650922799999535
+2hop__711946_269414,What record label is the performer who released All Your Faded Things on?,1,1,1,1.0,1,36.92000130000088
+3hop2__36852_326964_7713,How long had the city the Qing lost in 1853 been the capitol city of Yaxing Coach's headquarters location?,0,1,1,0.5,2,41.63827019999917
+3hop1__617062_127905_67954,Who won the All-Star MVP for the league that the team that Jim Wilson plays for is a part of?,0,1,1,0.2,5,44.392169300001115
+4hop1__46196_497223_15840_36014,What was Nintendo's limit on games per developer per year for the platform supporting the video game named after the sports organisation in charge of the Super Bowl halftime show?,0,1,1,0.3333333333333333,3,40.94032850000076
+3hop1__764280_834494_34053,What was the wettest year of the administrative territorial entity that contains the administrative territorial entity where Drexel Heights is located?,1,1,1,1.0,1,37.09171819999938
+2hop__121386_37168,"According to QS World University Rankings, where does the college that Ibrahim Shihata attended rank?",1,1,1,1.0,1,43.06116540000039
+4hop1__107309_457883_650651_7262,The Embassy of the country where palitaw comes from is found in Bandar Seri Begawan in Country A. Who was a prominent figure at the radio division of the creator of The Biggest Loser at Country A?,1,1,1,1.0,1,35.462130300000354
+2hop__64537_482364,Who is the father of the man with the same name as the Big Brother hot dog challenge winner?,0,0,0,0.0,,41.466817500000616
+2hop__650138_22402,How many students attend the school where Max Huber attended?,0,0,0,0.0,,37.9917461999994
+2hop__862994_69048,Who is the chief judge at Gloria Kemasuode's birthplace?,1,1,1,1.0,1,34.001203100000566
+2hop__631139_75487,Who is the federal leader of the party in which John Lynch-Staunton held a position?,1,1,1,1.0,1,41.826158199999554
+2hop__21103_16254,"By 1931, what percentage of the world's Jews were the group of Jews that represented the bulk of modern Jewry?",1,1,1,1.0,1,52.05413200000112
+4hop1__163763_49925_13759_736921,Where is the district that the person who wanted to reform and address Jesus Varela's religion preached a sermon on Marian devotion before his death located?,1,1,1,1.0,1,46.78148560000045
+2hop__807257_590611,Who is a cast member of the show that contains the character Michael Knight?,1,1,1,1.0,1,44.18301050000082
+4hop3__650050_88460_30152_20999,How were people from whom the new coins were a proclamation of independence by the Somali Muslim Ajuran Empire expelled from the natural boundary between Thailand and A Doi's country?,0,1,1,0.5,2,52.88899660000061
+4hop1__342858_131850_33952_34109,What is the PBS station in the second largest city in the state where Yuma's Library District is located?,1,1,1,1.0,1,40.31186720000005
+2hop__695364_513121,Who is the child of the male star of the 1921 film Money?,1,1,1,1.0,1,32.96329909999986
+3hop1__222497_309482_41132,How many times did plague occur in Al gran sole carico d'amore's composer's work location?,1,1,1,1.0,1,47.83510449999994
+4hop3__719125_132409_223216_35031,"In the top five largest urban areas in the US state in which the band performing Scars was formed, where does the city having Pathology rank?",1,1,1,1.0,1,50.74974250000014
+4hop1__580153_49925_13759_736921,Where is the district that the person who wanted to reform and address the religion that practices candidacy preach a sermon on Marian devotion before his death located?,1,1,1,1.0,1,49.046962300000814
+2hop__62020_158262,When did the president of the Confederacy end his fight in the Mexican-American war?,0,0,0,0.0,,44.147278299999016
+2hop__766973_770570,What county is Erik Hort's birthplace a part of?,1,1,1,1.0,1,31.428907999999865
+2hop__75714_148696,What is the position of the first governor general of India?,1,1,1,1.0,1,40.39212190000035
+2hop__29367_29376,What event caused the Liberal Party of Australia's longest-serving leader to become Prime Minister?,0,1,1,0.5,2,40.771552399999564
+2hop__263728_705527,Who is the father of the father of Anwer Ali?,1,1,1,1.0,1,35.73316840000007
+3hop2__569322_223623_162182,In what region of the country of S-Fone is The place of birth of John Phan located?,1,1,1,1.0,1,35.95232990000113
+2hop__271045_68633,Who is the president of the organization Julio Maglione is located?,1,1,1,1.0,1,39.18466360000093
+2hop__24441_36630,What countries found their economic growth in the period young boys were employed in the glass making industries?,1,1,1,1.0,1,47.90826699999889
+2hop__95673_62765,who did the leading actor in Sammy Going South play in the ten commandments?,1,1,1,1.0,1,39.223431399999754
+2hop__816977_6455,The developer of Mozilla Sunbird created which browser?,1,1,1,1.0,1,39.76292929999909
+2hop__362912_97805,Which was did the operator of the Jurmo class landing craft serve in?,1,1,1,1.0,1,40.72342709999975
+2hop__503085_110222,When was the painter of Femme nue couchée born?,1,1,1,1.0,1,27.592099899999084
+4hop2__9988_685934_70784_61381,"When was the country established that lies north of the region that prevailed with the disgrace of the ""Near East"" and the body of water containing The World islands?",1,1,1,1.0,1,36.96635450000031
+2hop__92051_827343,Who is the sibling of the actress who played Susan Walker in Miracle on 34th street?,0,1,1,0.5,2,37.25499029999992
+2hop__60880_87295,Who does the actor who plays Nanny in Eloise at Christmastime play in Princess Diaries?,1,1,1,1.0,1,32.96338079999987
+2hop__599396_19320,What worldwide ranking does Javier Barros Sierra's employer hold?,0,0,0,0.0,,40.07585319999998
+4hop3__673447_132409_145082_35031,"Among the top five largest urban areas in the state where Infest's performer was formed, where does Tammy Leitner's birth city rank?",0,0,0,0.0,,49.95131120000042
+4hop1__88342_75218_128008_80487,When is the all-star game of the league whose member played in the most championship series which proceed the MVP award?,0,0,1,0.1111111111111111,9,49.91827649999868
+2hop__263638_69048,Who is the Chief Judge of the Tebesa Nemine's birthplace?,1,1,1,1.0,1,35.03253980000045
+2hop__16632_110014,What year was the person who described the use of bitumen and pitch to tar ships born?,0,1,1,0.5,2,45.86208850000003
+2hop__46862_68042,"When did the political party that favored harsh punishment of southern states after the Civil War, gain control of the House?",0,0,0,0.0,,49.077516900000774
+3hop1__141138_2053_52946,"When is Celebrity Big Brother coming to the network which, along with ABC and the network which broadcasted The Chisholms, is the other major broadcaster based in NY?",1,1,1,1.0,1,37.44931369999904
+2hop__123148_5385,How many people work in Susan Winchester's alma mater?,1,1,1,1.0,1,41.91341459999967
+3hop1__813285_774554_124169,What year did the post end of Governor of the city where the author of Quadragesimo Anno died?,1,1,1,1.0,1,41.97728070000085
+2hop__161915_78851,which professional sports team would you not see play a home game in the arena where the last place Cream performed?,0,0,0,0.0,,41.388899200001106
+2hop__605207_135019,Who is the mother of Andreogeus' father?,0,0,0,0.0,,40.430969499999264
+3hop1__278222_42197_18397,"Where did the leader who argued that the country of citizenship of Vladimir Lefebvre had become imperialist, declare that he would intervene in the Korean conflict?",1,1,1,1.0,1,54.673615900001096
+2hop__495316_660579,"What is the capital of the county which contains Hickory Grove Estates, Mississippi?",1,1,1,1.0,1,31.196725899999365
+2hop__6736_6733,To what division does the place where the most speakers are found belong?,1,1,1,1.0,1,44.45121460000155
+2hop__77233_33207,How did did the people fare during the reign of the abolisher of sati partha in India?,1,1,1,1.0,1,43.18900539999959
+2hop__83460_456238,This is an instance of who was named commander in chief of texas forces by the new national government of texas National Forest?,1,1,1,1.0,1,40.3194739999999
+3hop1__829944_474097_84283,Who is the owner of the record label that the performer of Better Than Me is signed with?,1,1,1,1.0,1,36.964544399997976
+4hop1__152562_5274_458768_33633,When did the explorer reach the city where the headquarters of the only group larger than Vilaiyaadu Mankatha's record label is located?,0,0,0,0.0,,37.58227439999973
+2hop__135963_486257,The scientist that the GHZ experiment is named for is in what field of work?,1,1,1,1.0,1,40.917871199999354
+3hop1__222979_40769_64047,When did the RX 350 from the Scion owner's luxury division change body style?,0,1,1,0.25,4,44.48499470000024
+2hop__87953_17335,When did the winner of the Battle between Poras and Sikander die?,1,1,1,1.0,1,36.757782900000166
+2hop__32254_84601,When did the spacecraft that detected storms on Neptune leave our solar system?,0,0,1,0.1,10,47.52197459999661
+3hop1__545624_2053_5289,"What UK label was bought by the company which, along with ABC and the network which broadcasted Here and Now, is the other major broadcaster based in NY?",0,1,1,0.25,4,37.132764699999825
+4hop1__463635_624859_355213_203322,What county shares a border with the county where the birthplace of Tonight You're Mine's performer is located?,0,1,1,0.25,4,31.87668979999944
+2hop__14_59409,Who was Beyonce's husband talking about in the the song Cry?,0,0,0,0.0,,45.040128299999196
+3hop2__132957_483843_40768,"When did the maker of the Acura Legend, the manufacturer of Scion bbX and Nissan open US assembly plants?",1,1,1,1.0,1,33.583733100000245
+3hop1__163024_443779_52195,Who is the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located?,1,1,1,1.0,1,33.36469130000114
+3hop1__438364_443779_52195,Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Kotamadya is located?,1,1,1,1.0,1,34.437545100001444
+3hop1__107540_720914_27537,Why did Roncalli leave the place of death of the maker of The Gozzi Altarpiece?,1,1,1,1.0,1,32.74471730000005
+2hop__44522_58556,The food safety system of the agency that has the authority to decide if a drug is marketed otc or prescription is known as?,0,1,1,0.3333333333333333,3,33.56328790000043
+2hop__76402_653666,Who is the mother of the founder of Mormonism?,1,1,1,1.0,1,30.83968620000087
+2hop__208602_11402,"According to the developer of Topologically Integrated Geographic Encoding and Referencing, what is the total area of Atlantic City in square miles?",1,1,1,1.0,1,33.262495099999796
+2hop__59274_461854,Who was the spouse of the actor who played Scarlett in Gone With the Wind?,0,0,0,0.0,,29.297752700000274
+3hop1__107195_160713_77246,What is the meaning in the Arabic dictionary of the word which also refers to the majority religion of what became India when the country whose business news is covered by Corporate Corridor was created?,1,1,1,1.0,1,37.209371299999475
+3hop1__131110_39743_24526,"In the state that includes Walnut Spring, what's the typical winter daytime temperature range in the region of Richmond?",1,1,1,1.0,1,35.827583700000105
+2hop__35137_22932,Which interpretation of the work of the writer of The Canon of Medicine was taught more in Islamic schools?,0,1,1,0.5,2,35.72631920000276
+2hop__21103_16335,Italians and the group of Jews representing the bulk of modern Jewry may be genetically similar due to what two factors?,0,1,1,0.5,2,38.9886316000011
+4hop1__178366_229349_66759_75165,There is a state A where Storm of the Century was filmed based on the book by the author who wrote a short story featuring the author of This Is My God. What is the population of state A?,0,1,1,0.5,2,26.80456889999914
+3hop1__255970_831637_91775,The military unit that operates destroyers and once had a ship named the USS Sanderling has a force called the seals. What does seal stand for?,1,1,1,1.0,1,29.317619400000694
+2hop__91021_19033,Where did the wrestler who has held the intercontinental championship the most times win in 2008?,1,1,1,1.0,1,34.545265100001416
+2hop__310112_88165,Who did Haran's sibling marry after the death of sarah?,1,1,1,1.0,1,34.642251500001294
+2hop__130508_32379,What is the oldest college in the state that contains Borough House Plantation?,1,1,1,1.0,1,27.28865770000266
+2hop__449673_91104,What is the experimental satellite which was the forerunner to the communication satellite of the operator of the RESOURCESAT-2 called?,1,1,1,1.0,1,30.03487529999984
+2hop__569582_304416,What record label is the performer of Almost Made Ya signed to?,1,1,1,1.0,1,25.8245766
+2hop__47808_198548,Who is the wife of the actor of Grace's boyfriend in Frankie and Grace?,0,1,1,0.5,2,32.01873259999775
+3hop1__92991_78276_68042,When did the majority party in the body which determines the rules of the US House and US Senate gain control of the House?,0,0,0,0.0,,34.80255490000127
+2hop__31094_31122,The author of Alciphron lived in what century?,0,1,1,0.5,2,31.613707099997555
+2hop__603598_25719,At the end of what year did the tribes from the place where the Rossen culture is located invade the Roman Empire?,0,0,0,0.0,,39.85443490000034
+4hop1__152562_5274_458768_33637,How many ethnic minorities were looked at differently in the city where the headquarters of the only group larger than Vilaiyaadu Mankatha's record label is located?,0,0,0,0.0,,33.02123779999965
+2hop__428940_135373,After what is the body of water Partridge Lake is part of named?,1,1,1,1.0,1,27.77373559999978
+3hop1__79039_131926_13165,What treaty ceded territory to the US extending west to the river next to the city that's the home of the Juicy Lucy?,0,0,1,0.16666666666666666,6,34.89692660000219
+2hop__32441_274635,In which military branch did the other president besides Taft that Jenkins Orphanage played for serve?,0,1,1,0.25,4,33.77415370000017
+2hop__14092_8311,When was John's eldest son crowned?,1,1,1,1.0,1,28.562410099999397
+3hop1__108833_720914_27537,Why did Roncalli leave the place where artist who made The Bacchanal of the Andrians died?,1,1,1,1.0,1,33.561827400000766
+3hop2__304722_590317_63959,When was the last time the team that Terry Twell was a member of beat the 194-95 winner of the FA Cup?,1,1,1,1.0,1,32.50209099999847
+3hop1__699454_831637_91775,"What does seal stand for in the U.S. military branch that operates a list of destroyer classes, as well as the USS Sable?",1,1,1,1.0,1,29.805380900001182
+2hop__754753_57816,What is the U.S. News ranking of the law school at Carlos Alvarez's employer?,1,1,1,1.0,1,29.83101340000212
+4hop1__152562_5274_458768_33677,Vilaiyaadu Mankatha's record label has just one company that is larger than it. When was the most recent Bicycle Friendly Community award given to the city where the headquarters of that larger company lies?,1,1,1,1.0,1,32.37602919999699
+4hop2__71753_158279_70784_61381,When was the region immediately north of the region where Israel is located and the final destination for the export crops established?,0,0,0,0.0,,26.893682300000364
+4hop1__39871_314549_131976_56103,"When do hurricanes occur in the ocean that borders the state where Williamsburg, Main Street Station and another share a track?",0,1,1,0.5,2,32.247430799998256
+2hop__2682_577502,Who is the spouse of the famous governor signing legislation in honor of Donda West's death?,1,1,1,1.0,1,30.130944499996986
+3hop1__68802_89752_49923,How many counties are there in the largest state in the region where the film The Family Stone was set?,0,0,0,0.0,,29.040454000001773
+4hop1__88342_75218_128008_80286,who has had the most hits in the league that includes the team that has played the most games of the type played just before the league MVP is awarded?,0,1,1,0.5,2,35.106179400001565
+4hop3__310746_88460_30152_20999,There exists a country A that forms a boundary between Thailand and the country containing the Khong District. How were the people that the Ajuran Empire declared independence from by minting coins expelled from country A?,0,0,0,0.0,,34.28066780000154
+2hop__203437_152093,What label was responsible for the performer of Live Life Loud?,1,1,1,1.0,1,22.59134450000056
+3hop2__9988_73205_70784,What region is to the north of what used to be known as Near East and the body of water between east africa and Arabian Peninsula?,0,0,1,0.1111111111111111,9,30.533354999999574
+3hop1__64957_87694_124169,"When was the position of Governor ended in the city that houses the head of Catholicism, and the basilica of the saint holding a knife in the Last Supper?",0,0,1,0.16666666666666666,6,31.47681680000096
+3hop1__671542_651917_47686,Where do greyhound buses leave from in the city where the performer of Darlings was born?,0,0,0,0.0,,29.340626500001235
+2hop__398344_439882,Who is the creator of the main character in the Steven the Sword Fighter series?,1,1,1,1.0,1,28.636596199998166
+2hop__31124_31122,What century did a notable subjective idealist live in?,1,1,1,1.0,1,30.969419900000503
+2hop__706038_14251,What line by a cast member of Birds of Feather is believed to have started the archie nickname?,0,1,1,0.5,2,32.98449139999866
+2hop__161507_77849,Who is the newly elected Chief Justice of the country where Masherbrum is located?,0,1,1,0.5,2,28.580598100001225
+3hop2__79512_16214_84681,"When did the people who first imported slaves to New York, come to the country where Lord of the Rings was filmed?",0,1,1,0.25,4,32.63946869999927
+2hop__671664_646310,What city is in the county where the Red Cross is located?,1,1,1,1.0,1,22.69249430000127
+3hop1__726561_132457_51423,What is the name of the castle in the city where the performers of Born A Lion was formed?,1,1,1,1.0,1,30.436329099997238
+2hop__776637_87295,Who does the cast member from Julie play in Princess Diaries?,1,1,1,1.0,1,27.78558819999671
+2hop__2683_577502,Who married the governor who passed a law in honor of Donda West?,1,1,1,1.0,1,29.842299600000842
+2hop__155781_155922,What does the river that Darling Mills Creek turns into flow into?,1,1,1,1.0,1,25.620150499999
+2hop__29339_40482,Who did the Huguenots in the state primary Edwards won outside of Georgia buy land from?,1,1,1,1.0,1,33.556446499998856
+2hop__33288_157788,What is an example of a railroad line in the country first to invade Manchuria?,0,1,1,0.5,2,32.04254860000219
+3hop1__389069_132457_47686,"Where do greyhound buses depart from, in the city where the performer of Sleep Is the Enemy was formed?",1,1,1,1.0,1,31.21181020000222
+3hop1__504362_443779_52195,Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that Solor is a part of?,1,1,1,1.0,1,30.8926767999983
+4hop1__726391_153080_33952_34053,What was the wettest year in the second largest city of the state where the Oh Yeah performer is from?,0,1,1,0.5,2,35.27778259999832
+2hop__136214_483189,The person whom Sikyona is named after is part of what?,1,1,1,1.0,1,39.037123100002646
+4hop2__9988_261673_70784_79935,When was the region immediately north of the region that prevailed with the disgrace of Near East and the terrain feature on which shamal is located created?,0,1,1,0.3333333333333333,3,32.36557829999947
+2hop__540035_113442,What date did the creator of The Blind Girl Die?,1,1,1,1.0,1,38.669136000000435
+3hop1__131783_131926_13165,What treaty ceded territory to the US extending west to the body of water by the location of the Minikahda Club?,1,1,1,1.0,1,40.62366549999933
+3hop2__326964_789654_7713,How long had Mao Yushi's birthplace been the capitol city of Yaxing Coach's headquarters location?,1,1,1,1.0,1,40.94559769999978
+2hop__247353_55227,Who plays the wife of Here Comes the Boom's screenwriter in Grown Ups?,1,1,1,1.0,1,39.66728900000089
+3hop2__88342_93066_90766,When was the last time the team that won the American League East in 2017 and the Dodgers met in the championship event that precedes the MLB MVP award?,0,1,1,0.2,5,49.827850800000306
+2hop__123145_80420,Who was the first African American student to attend Stewart Patridge's university?,0,1,1,0.5,2,38.46211129999938
+2hop__29893_29905,How many mandatory transmitters of the owner and operator of most CBC TV stations were updated before the deadline?,1,1,1,1.0,1,41.527164099999936
+2hop__199513_13732,How old was Mary when engaged to the person from whom São José dos Campos takes it's name?,1,1,1,1.0,1,44.23798689999967
+3hop1__222497_309482_27537,Why did Roncalli leave the place where the composer of Al gran sole carico d'amore worked?,1,1,1,1.0,1,43.85505919999923
+2hop__613959_135844,Who is the city that AvtoVAZ's headquarters is located in named after?,1,1,1,1.0,1,35.39552080000067
+3hop1__626214_503371_21711,3 When was the Palau de la Generalitat in the place of death of martin of the administrative territorial entity Navardun is located constructed?,0,0,1,0.14285714285714285,7,37.08322410000255
+3hop1__848113_15840_36014,What was Nintendo's limit on games per developer per year on the abbreviation of the platform of Star Voyager?,1,1,1,1.0,1,40.0193027000023
+4hop3__405277_88460_30152_20999,How were the people from whom the new coins were a proclamation of independence by the Somali Muslim Ajuran Empire expelled from the country between Thailand and Ban Hinlat's country?,0,1,1,0.5,2,51.6082279000002
+2hop__144303_483189,What mythology is the city where Eutychides was born in a part of?,1,1,1,1.0,1,38.882321400000365
+2hop__593688_292889,What country does team that Pa Amadou Gai is a member of play for?,1,1,1,1.0,1,37.16957509999702
+3hop2__30152_107291_20999,"How were the people that the Somali Muslim Ajuran Empire made coins to proclaim independence from, expelled from the country where Mohinga is eaten?",1,1,1,1.0,1,50.04323160000058
+3hop1__159802_39743_24526,"What is the average winter daytime temperature in the region where Richmond is found, in the state once governed by Andros?",0,1,1,0.5,2,50.41370889999962
+2hop__22885_36240,"What specific part of the religious scripture that can be fit into a large, loose definition of legal literature does this document reference for Mary?",0,1,1,0.5,2,46.291593199999625
+2hop__58168_1783,Who was the mayor of New York during the time when the US had its highest unemployment rate?,0,0,1,0.16666666666666666,6,44.02351290000297
+2hop__87589_362941,Where was the founder of the National Women's Party born?,0,0,0,0.0,,33.092186399997445
+4hop1__525129_315334_131926_90707,"Where does the body of water by the city where the Lots More Blues, Rags and Hollers performer was formed and the Ohio River meet?",1,1,1,1.0,1,42.27267930000016
+3hop1__92788_648104_13493,What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?,0,0,1,0.16666666666666666,6,51.651571200000035
+2hop__35445_22458,What is the full name of the organization that publishes he Laws of the Game?,1,1,1,1.0,1,33.47571700000117
+3hop1__46571_87694_64412,When did the city that contains the basilica named after the saint who is holding a knife in the last supper become a country?,0,1,1,0.5,2,45.72854979999829
+3hop2__27069_92991_76291,When did the party of Oklahoma's US Senators take control of the body determining the rules of the US House and US Senate?,0,1,1,0.25,4,44.96152549999897
+2hop__496792_392646,A participant of the Battle of Brechin is an instance of?,0,0,0,0.0,,36.68297940000048
+4hop2__103790_39078_8987_8529,"Ivo Werner is from Country A that invaded Country B because their military branch that helped the Old West police was unprepared. When was the word ""Slavs"" used in the national anthem of country B?",1,1,1,1.0,1,46.24413490000006
+2hop__686395_141338,What company is Frederic Ewen's employer part of?,1,1,1,1.0,1,36.779442899998685
+3hop1__131820_59747_48534,"Who is Grant Park, in the largest city by population in the state where WEKL is found, named after?",0,0,0,0.0,,45.0571005999991
+4hop1__310029_153080_33897_81096,Who won the Indy car race in the largest populated city in the state where the Jazz Portraits: Mingus in Wonderland performer is from?,1,1,1,1.0,1,42.95930679999947
+2hop__203985_524737,In what league did Jose Miranda's team compete?,1,1,1,1.0,1,40.9739570999991
+2hop__647996_551681,What is another notable work made by the author of Miss Sara Sampson?,1,1,1,1.0,1,39.566734899999574
+4hop3__312119_132409_223216_35031,Where does the city where Pathology was formed rank among the top five largest urban areas of the state where the performer of Getting Away With Murder was formed?,1,1,1,1.0,1,39.44032949999746
+2hop__215896_460425,What is the location of formation of the film company distributing The Boss?,1,1,1,1.0,1,25.628179300001648
+2hop__734582_74481,Who was played by the director of The Good Shepherd in The Godfather Part II?,1,1,1,1.0,1,72.72357749999719
+2hop__48481_319887,Where was the actor who plays Kurt in Daddy's Home 2 educated?,0,0,0,0.0,,49.6461675999999
+2hop__52283_75184,Who play's Marty's girlfriend in back to the future?,0,1,1,0.2,5,38.64111250000133
+4hop1__696484_49925_13759_736921,Where is the district that the person who wanted to reform and address Bernhard Lichtenberg's religion preached a sermon on Marian devotion before his death located?,1,1,1,1.0,1,81.32228640000176
+3hop1__108062_720914_41132,How many times did plague occur in the place where La Bella's artist died?,1,1,1,1.0,1,84.28611470000033
+4hop3__668721_132409_371500_35031,Where does the city where Veoh's headquarters is located rank in the top five largest urban areas of the state where The Paramour Sessions' performers were formed?,0,0,0,0.0,,82.12014379999891
+2hop__386236_350892,Where was Osbert Sitwell's sibling educated?,1,1,1,1.0,1,58.293509999999515
+2hop__59612_42429,When did the French and Indian War end on the continent where London Broil comes from?,0,1,1,0.2,5,68.97949520000111
+2hop__506035_325512,In which county was Larkin I. Smith born?,1,1,1,1.0,1,66.13267699999778
+3hop1__617062_127905_80286,Who has the most hits in the history of the organization that includes the team Jim Wilson was released by?,1,1,1,1.0,1,79.90805279999768
+2hop__71034_343058,Who is the spouse of the person who sang holding out for a hero in shrek 2?,1,1,1,1.0,1,70.68781790000139
+2hop__189094_612080,What league does the team that occupies the Rabat Ajax Football Ground belong to?,1,1,1,1.0,1,66.46944920000169
+4hop3__668721_132409_146285_35031,"In the top five largest urban areas in the state where the performer of The Paramour Sessions was from, where does the place of death for Alexander Golitzen rank?",0,1,1,0.3333333333333333,3,88.97993379999753
+2hop__88906_55840,"In the King's Speech, who played the person who was the King of England in 1950?",1,1,1,1.0,1,59.015079400000104
+4hop2__161324_14670_8987_8529,"A country's military branch, the equivalent of which in the US contains the Air Defense Artillery, was unprepared for the invasion of the country occupied by the Nazi's. When was the word ""Slavs"" used in the national anthem of the unprepared country?",1,1,1,1.0,1,39.28348960000221
+2hop__708145_30351,Who did Hayek work for upon being hired by the author of Bureaucracy?,1,1,1,1.0,1,57.58998380000048
+2hop__59048_827343,Whose sister played Susie in miracle on 34th street?,0,0,0,0.0,,34.62209200000143
+4hop1__802394_153080_159767_81096,An Indy car race was held in the capital of the state where the performer of Mingus Plays Piano was born. Who won the race?,1,1,1,1.0,1,61.97413320000123
+3hop1__801799_547811_80702,What is the name of the famous bridge in the place of birth of the composer of La fida ninfa?,1,1,1,1.0,1,24.75829530000192
+2hop__128420_375952,What county is the city where KQBA is located?,1,1,1,1.0,1,17.546765899998718
+3hop1__79039_131926_89261,Where does the body of water by the home of the Juicy Lucy empty into the gulf of Mexico?,0,1,1,0.5,2,26.247057399999903
+4hop1__341777_508773_85832_745702,"Who was the child of the Italian navigator who sailed for England, and explored the eastern coast of the continent where the birthplace of Eduardo Cuervo is found?",1,1,1,1.0,1,27.79286139999749
+3hop1__302383_503371_21711,When was the Palau de la Generalitat constructed in the city where Martin from the region where Codo is located died?,1,1,1,1.0,1,25.76216050000221
+2hop__42027_42004,"Since 2004, what is the location of the body to which, if a matter is not specifically reserved, it is devolved?",1,1,1,1.0,1,25.22394010000062
+2hop__644898_64046,Who plays the prison warden in the second movie in the series with the same name as the place where James Trainer died?,1,1,1,1.0,1,26.104925299998285
+2hop__30741_85990,Who were the leaders of the opposition of the party that dominated until the mid-20th century?,0,0,0,0.0,,29.17068769999969
+2hop__315246_88622,Who is the head of the developer of Simon?,1,1,1,1.0,1,22.215235100000427
+3hop2__11282_57233_56883,The native country of emu birds started conscription. This occurred during the war depicted in The Things They Carried. What year did the draft start?,1,1,1,1.0,1,33.334855199998856
+2hop__22431_16335,Ashkenazi Jews and the largest single groups of foreigners in 2010 may be genetically similar due to what two factors?,1,1,1,1.0,1,45.46567900000082
