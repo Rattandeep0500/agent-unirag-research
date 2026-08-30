@@ -7,8 +7,8 @@ RESULTS = r".\reproduction\musique_baseline_results.csv"
 DATASET = r".\original\Agent-UniRAG\inference\processed_data\musique\dev_500_subsampled.jsonl"
 URL = "http://127.0.0.1:8000/retrieve/"
 CORPUS = "musique_dev"
-TOP_K = 10
-OUTPUT = r".\reproduction\results\four_hop_failure_diagnosis.csv"
+TOP_K = 100
+OUTPUT = r".\reproduction\results\four_hop_candidate_100_diagnosis.csv"
 
 
 def norm(text):
