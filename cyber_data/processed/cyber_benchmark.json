@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "cyber_001",
+    "question": "Which mitigation applies to the attack technique used by malware 3PARA RAT when Adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. Common symmetric encryption algorithms include AES, DES, 3DES, Blowfish, and RC4?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",
+        "name": "3PARA RAT"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+        "name": "Symmetric Cryptography"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+        "name": "Network Intrusion Prevention"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_002",
+    "question": "Which mitigation applies to the attack technique used by malware 4H RAT when Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. Protocols such as HTTP/S(Citation: CrowdStrike Putter Panda) and WebSocket(Citation: Brazking-Websockets) that carry web traffic may be very common in environments. HTTP/S packets have?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--8e461ca3-0996-4e6e-a0df-e2a5bbc51ebc",
+        "name": "4H RAT"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "name": "Web Protocols"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+        "name": "Network Intrusion Prevention"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_003",
+    "question": "Which mitigation applies to the attack technique used by malware ABK when Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. Lateral Tool Transfer). On Windows, adversaries may use various utilities to download tools, such?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--a0ebedca-d558-4e48-8ff7-4bf76208d90c",
+        "name": "ABK"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+        "name": "Ingress Tool Transfer"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+        "name": "Network Intrusion Prevention"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_004",
+    "question": "Which mitigation applies to the attack technique used by malware AcidPour when Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)(Citation: Unit 42 Shamoon3 2018)(Citation: Talos Olympic?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--4b1b3a36-bbd6-462c-9c03-7fd4fb5e0dfa",
+        "name": "AcidPour"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c",
+        "name": "Data Destruction"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b",
+        "name": "Data Backup"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_005",
+    "question": "Which mitigation applies to the attack technique used by malware AcidRain when Adversaries may erase the contents of storage devices on specific systems or in large numbers in a network to interrupt availability to system and network resources. Adversaries may partially or completely overwrite the contents of a storage device rendering the data irrecoverable through the storage interface.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: DOJ Lazarus Sony 2018) Instead of wiping specific disk structures or files, adversaries with?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--04cecafd-cb5f-4daf-aa1f-73899116c4a2",
+        "name": "AcidRain"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac",
+        "name": "Disk Content Wipe"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b",
+        "name": "Data Backup"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_006",
+    "question": "Which mitigation applies to the attack technique used by malware Action RAT when Adversaries may search local system sources, such as file systems, configuration files, local databases, virtual machine files, or process memory, to find files of interest and sensitive data prior to Exfiltration. Adversaries may do this using a Command and Scripting Interpreter, such as cmd as well as a Network Device CLI, which have functionality to interact with the file system to gather information.(Citation: show_run_config_cmd_cisco) Adversaries may also use Automated Collection on the?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--36801ffb-5c85-4c50-9121-6122e389366d",
+        "name": "Action RAT"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+        "name": "Data from Local System"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",
+        "name": "Data Loss Prevention"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_007",
+    "question": "Which mitigation applies to the attack technique used by malware adbupd when Adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. , also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. Due to how the keys are generated, the sender encrypts data with the receiver’s public key and the receiver decrypts the data with their private key. This ensures that only the?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--0f1ad2ef-41d4-4b7a-9304-ddae68ea3005",
+        "name": "adbupd"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+        "name": "Asymmetric Cryptography"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+        "name": "Network Intrusion Prevention"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_008",
+    "question": "Which mitigation applies to the attack technique used by malware ADVSTORESHELL when An adversary may compress and/or encrypt data that is collected prior to exfiltration. Compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network.(Citation: DOJ GRU Indictment Jul 2018) Encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender. Both compression and encryption are done prior to exfiltration, and can be performed using a utility,?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",
+        "name": "ADVSTORESHELL"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+        "name": "Archive Collected Data"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
+        "name": "Audit"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_009",
+    "question": "Which mitigation applies to the attack technique used by malware Agent Tesla when Adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various techniques.(Citation: Wikipedia Man in the Browser) A specific example is when an adversary injects software into a browser that allows them to inherit cookies, HTTP sessions, and SSL client certificates of a user then use the browser as a way to pivot into an authenticated intranet.(Citation: Cobalt?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",
+        "name": "Agent Tesla"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--544b0346-29ad-41e1-a808-501bb4193f47",
+        "name": "Browser Session Hijacking"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
+        "name": "User Training"
+      }
+    ]
+  },
+  {
+    "question_id": "cyber_010",
+    "question": "Which mitigation applies to the attack technique used by malware Agent.btz when Adversaries may attempt to exfiltrate data over a USB connected physical device. In certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a USB device introduced by a user. The USB device could be used as the final exfiltration point or to hop between otherwise disconnected systems?",
+    "hop_count": 3,
+    "chain": [
+      {
+        "type": "malware",
+        "id": "malware--40d3e230-ed32-469f-ba89-be70cc08ab39",
+        "name": "Agent.btz"
+      },
+      {
+        "type": "attack-pattern",
+        "id": "attack-pattern--a3e1e6c5-9c74-4fc0-a16c-a9d228c17829",
+        "name": "Exfiltration over USB"
+      },
+      {
+        "type": "course-of-action",
+        "id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264",
+        "name": "Limit Hardware Installation"
+      }
+    ]
+  }
+]
