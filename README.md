@@ -49,12 +49,6 @@ The repository is intentionally explicit about **positive and negative results**
 - ✅ Controlled 10-question cybersecurity relationship-hop evaluation
 - ✅ Git checkpoints and reproducibility artifacts
 
-### Current documentation phase
-
-- 🟡 README polishing
-- 🟡 Research-paper preparation
-- 🟡 Final presentation of results, diagrams, examples, and limitations
-
 ---
 
 # 1. Why This Project?
