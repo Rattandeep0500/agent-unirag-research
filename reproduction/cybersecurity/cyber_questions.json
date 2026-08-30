@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+
+INPUT = Path(
+    r".\cyber_data\raw\enterprise-attack-19.1.json"
+)
+
+OUTPUT = Path(
+    r".\cyber_data\processed\cyber_benchmark.json"
+)
+
+NUM_QUESTIONS = 10
+
+
+def get_name_map(objects):
+    return {
+        obj["id"]: obj.get("name", "")
+        for obj in objects
+        if obj.get("id") and obj.get("name")
+    }
+
+
+def get_attack_objects(objects):
+    return {
+        obj["id"]: obj
+        for obj in objects
+        if obj.get("id")
+    }
+
+
+def build_relationship_maps(objects):
+    """
+    Build:
+        group -> techniques
+        software -> techniques
+        technique -> mitigations
+
+    from ATT&CK STIX relationship objects.
+    """
+
+    group_to_techniques = {}
+    software_to_techniques = {}
+    technique_to_mitigations = {}
+
+    for obj in objects:
+
+        if obj.get("type") != "relationship":
+            continue
+
+        source = obj.get("source_ref")
+        target = obj.get("target_ref")
+        relationship_type = obj.get("relationship_type")
+
+        if not source or not target:
+            continue
+
+        # Group/software -> technique
+        if relationship_type == "uses":
+
+            if source.startswith("intrusion-set--"):
+                group_to_techniques.setdefault(
+                    source,
+                    [],
+                ).append(target)
+
+            elif source.startswith("malware--"):
+                software_to_techniques.setdefault(
+                    source,
+                    [],
+                ).append(target)
+
+            elif source.startswith("tool--"):
+                software_to_techniques.setdefault(
+                    source,
+                    [],
+                ).append(target)
+
+        # Technique -> mitigation
+        elif relationship_type == "mitigates":
+
+            if target.startswith("course-of-action--"):
+                technique_to_mitigations.setdefault(
+                    source,
+                    [],
+                ).append(target)
+
+    return (
+        group_to_techniques,
+        software_to_techniques,
+        technique_to_mitigations,
+    )
+
+
+def build_questions(objects):
+
+    names = get_name_map(objects)
+    object_map = get_attack_objects(objects)
+
+    (
+        group_to_techniques,
+        software_to_techniques,
+        technique_to_mitigations,
+    ) = build_relationship_maps(objects)
+
+    questions = []
+
+    # ---------------------------------------------------------
+    # Group -> Technique -> Mitigation
+    # ---------------------------------------------------------
+
+    for group_id, technique_ids in group_to_techniques.items():
+
+        group_name = names.get(group_id)
+
+        if not group_name:
+            continue
+
+        for technique_id in technique_ids:
+
+            technique = object_map.get(technique_id)
+
+            if not technique:
+                continue
+
+            if technique.get("type") != "attack-pattern":
+                continue
+
+            technique_name = names.get(
+                technique_id
+            )
+
+            if not technique_name:
+                continue
+
+            mitigation_ids = technique_to_mitigations.get(
+                technique_id,
+                [],
+            )
+
+            for mitigation_id in mitigation_ids:
+
+                mitigation_name = names.get(
+                    mitigation_id
+                )
+
+                if not mitigation_name:
+                    continue
+
+                question = (
+                    f"Which mitigation is associated with the "
+                    f"technique {technique_name}, which is used by "
+                    f"the threat group {group_name}?"
+                )
+
+                questions.append(
+                    {
+                        "question_id": (
+                            f"cyber_group_{len(questions) + 1}"
+                        ),
+                        "question": question,
+                        "hop_count": 3,
+                        "chain": [
+                            {
+                                "type": "intrusion-set",
+                                "id": group_id,
+                                "name": group_name,
+                            },
+                            {
+                                "type": "attack-pattern",
+                                "id": technique_id,
+                                "name": technique_name,
+                            },
+                            {
+                                "type": "course-of-action",
+                                "id": mitigation_id,
+                                "name": mitigation_name,
+                            },
+                        ],
+                    }
+                )
+
+                if len(questions) >= NUM_QUESTIONS:
+                    return questions
+
+    # ---------------------------------------------------------
+    # Software -> Technique -> Mitigation
+    # ---------------------------------------------------------
+
+    for software_id, technique_ids in software_to_techniques.items():
+
+        software_name = names.get(software_id)
+
+        if not software_name:
+            continue
+
+        for technique_id in technique_ids:
+
+            technique = object_map.get(technique_id)
+
+            if not technique:
+                continue
+
+            if technique.get("type") != "attack-pattern":
+                continue
+
+            technique_name = names.get(
+                technique_id
+            )
+
+            if not technique_name:
+                continue
+
+            mitigation_ids = technique_to_mitigations.get(
+                technique_id,
+                [],
+            )
+
+            for mitigation_id in mitigation_ids:
+
+                mitigation_name = names.get(
+                    mitigation_id
+                )
+
+                if not mitigation_name:
+                    continue
+
+                question = (
+                    f"Which mitigation is associated with the "
+                    f"technique {technique_name}, which is used by "
+                    f"the software or malware {software_name}?"
+                )
+
+                questions.append(
+                    {
+                        "question_id": (
+                            f"cyber_software_{len(questions) + 1}"
+                        ),
+                        "question": question,
+                        "hop_count": 3,
+                        "chain": [
+                            {
+                                "type": (
+                                    "malware"
+                                    if software_id.startswith("malware--")
+                                    else "tool"
+                                ),
+                                "id": software_id,
+                                "name": software_name,
+                            },
+                            {
+                                "type": "attack-pattern",
+                                "id": technique_id,
+                                "name": technique_name,
+                            },
+                            {
+                                "type": "course-of-action",
+                                "id": mitigation_id,
+                                "name": mitigation_name,
+                            },
+                        ],
+                    }
+                )
+
+                if len(questions) >= NUM_QUESTIONS:
+                    return questions
+
+    return questions
+
+
+def main():
+
+    if not INPUT.exists():
+        raise FileNotFoundError(
+            f"MITRE STIX file not found: {INPUT}"
+        )
+
+    with INPUT.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
+
+        bundle = json.load(file)
+
+    objects = bundle.get(
+        "objects",
+        [],
+    )
+
+    questions = build_questions(objects)
+
+    if len(questions) < NUM_QUESTIONS:
+        raise RuntimeError(
+            f"Only generated {len(questions)} questions. "
+            f"Expected at least {NUM_QUESTIONS}."
+        )
+
+    questions = questions[:NUM_QUESTIONS]
+
+    OUTPUT.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with OUTPUT.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+
+        json.dump(
+            questions,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    print(
+        "========== CYBER BENCHMARK BUILT =========="
+    )
+
+    print(
+        "Questions:",
+        len(questions),
+    )
+
+    print(
+        "Hop count:",
+        sorted(
+            set(
+                q["hop_count"]
+                for q in questions
+            )
+        ),
+    )
+
+    print()
+    print("Questions:")
+
+    for q in questions:
+        print()
+        print(q["question_id"])
+        print(q["question"])
+
+        print("Chain:")
+
+        for item in q["chain"]:
+            print(
+                f"  {item['type']}: "
+                f"{item['name']} "
+                f"({item['id']})"
+            )
+
+    print()
+    print("Saved:", OUTPUT)
+
+
+if __name__ == "__main__":
+    main()

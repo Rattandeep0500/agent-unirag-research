@@ -1,0 +1,21 @@
+question_id,hop,source,target,relationship,query,bm25_rank,bm25_recall@1,bm25_recall@5,bm25_recall@10,bm25_mrr,bm25_latency,e5_rank,e5_recall@1,e5_recall@5,e5_recall@10,e5_mrr,e5_latency
+cyber_001,1,3PARA RAT,Symmetric Cryptography,uses,3PARA RAT Symmetric Cryptography,1,1,1,1,1.0,0.026923800000000497,1,1,1,1,1.0,3.8170301999999996
+cyber_001,2,Network Intrusion Prevention,Symmetric Cryptography,mitigates,Symmetric Cryptography Network Intrusion Prevention,1,1,1,1,1.0,0.020624500000000268,1,1,1,1,1.0,3.3487238999999978
+cyber_002,1,4H RAT,Web Protocols,uses,4H RAT Web Protocols,1,1,1,1,1.0,0.041558699999999504,1,1,1,1,1.0,3.3322275999999995
+cyber_002,2,Network Intrusion Prevention,Web Protocols,mitigates,Web Protocols Network Intrusion Prevention,1,1,1,1,1.0,0.04148929999999851,1,1,1,1,1.0,3.1726110999999975
+cyber_003,1,ABK,Ingress Tool Transfer,uses,ABK Ingress Tool Transfer,1,1,1,1,1.0,0.04400539999999964,1,1,1,1,1.0,2.977523399999999
+cyber_003,2,Network Intrusion Prevention,Ingress Tool Transfer,mitigates,Ingress Tool Transfer Network Intrusion Prevention,1,1,1,1,1.0,0.03929279999999835,1,1,1,1,1.0,3.3796122000000004
+cyber_004,1,AcidPour,Data Destruction,uses,AcidPour Data Destruction,1,1,1,1,1.0,0.033355900000000105,1,1,1,1,1.0,2.892269299999999
+cyber_004,2,Data Backup,Data Destruction,mitigates,Data Destruction Data Backup,1,1,1,1,1.0,0.048044500000003154,1,1,1,1,1.0,3.1726175999999953
+cyber_005,1,AcidRain,Disk Content Wipe,uses,AcidRain Disk Content Wipe,1,1,1,1,1.0,0.04929040000000384,1,1,1,1,1.0,3.2708039999999983
+cyber_005,2,Data Backup,Disk Content Wipe,mitigates,Disk Content Wipe Data Backup,1,1,1,1,1.0,0.050077599999994504,1,1,1,1,1.0,3.5161324999999977
+cyber_006,1,Action RAT,Data from Local System,uses,Action RAT Data from Local System,1,1,1,1,1.0,0.04070180000000079,1,1,1,1,1.0,2.7796366999999975
+cyber_006,2,Data Loss Prevention,Data from Local System,mitigates,Data from Local System Data Loss Prevention,1,1,1,1,1.0,0.020503200000000277,1,1,1,1,1.0,3.3033665000000028
+cyber_007,1,adbupd,Asymmetric Cryptography,uses,adbupd Asymmetric Cryptography,1,1,1,1,1.0,0.03730059999999469,1,1,1,1,1.0,3.070482999999996
+cyber_007,2,Network Intrusion Prevention,Asymmetric Cryptography,mitigates,Asymmetric Cryptography Network Intrusion Prevention,1,1,1,1,1.0,0.04347500000000082,1,1,1,1,1.0,3.5895246999999983
+cyber_008,1,ADVSTORESHELL,Archive Collected Data,uses,ADVSTORESHELL Archive Collected Data,1,1,1,1,1.0,0.04832410000000209,1,1,1,1,1.0,2.9784292000000008
+cyber_008,2,Audit,Archive Collected Data,mitigates,Archive Collected Data Audit,1,1,1,1,1.0,0.04369439999999969,1,1,1,1,1.0,2.8874946999999977
+cyber_009,1,Agent Tesla,Browser Session Hijacking,uses,Agent Tesla Browser Session Hijacking,1,1,1,1,1.0,0.03620469999999898,1,1,1,1,1.0,3.296192000000005
+cyber_009,2,User Training,Browser Session Hijacking,mitigates,Browser Session Hijacking User Training,1,1,1,1,1.0,0.03727330000000961,1,1,1,1,1.0,3.0310447000000096
+cyber_010,1,Agent.btz,Exfiltration over USB,uses,Agent.btz Exfiltration over USB,1,1,1,1,1.0,0.04882890000000373,1,1,1,1,1.0,3.706907799999996
+cyber_010,2,Limit Hardware Installation,Exfiltration over USB,mitigates,Exfiltration over USB Limit Hardware Installation,1,1,1,1,1.0,0.04599229999999466,1,1,1,1,1.0,5.236635499999991
