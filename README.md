@@ -32,7 +32,35 @@ The repository is intentionally explicit about **positive and negative results**
 
 ---
 
-## Research Status
+#
+## 📄 Research Paper
+
+<p align="center">
+  <a href="docs/agent-unirag-research-paper.pdf">
+    <img src="readme_assets/diagrams/research_paper_preview.svg" alt="Agent-UniRAG research paper" width="920">
+  </a>
+</p>
+
+**[Read the complete research paper →](docs/agent-unirag-research-paper.pdf)**
+
+The paper documents the actual project end-to-end: Agent-UniRAG retrieval reproduction, E5 reranking, four-hop diagnosis, controlled decomposition, the Qwen2.5-0.5B planner pilot, MITRE ATT&CK corpus construction, relationship-aware cybersecurity retrieval, results, limitations, and reproducibility.
+
+## 🧭 README Diagrams
+
+These diagrams are stored as standalone SVG assets so they render directly on GitHub.
+
+![System architecture](readme_assets/diagrams/01_system_architecture.svg)
+
+![E5 reranking pipeline](readme_assets/diagrams/02_e5_pipeline.svg)
+
+![Controlled decomposition](readme_assets/diagrams/03_decomposition_workflow.svg)
+
+![Cybersecurity extension](readme_assets/diagrams/04_cybersecurity_extension.svg)
+
+![MuSiQue results](readme_assets/diagrams/05_musique_results.svg)
+
+
+# Research Status
 
 ### Core experiments completed
 
@@ -50,6 +78,28 @@ The repository is intentionally explicit about **positive and negative results**
 - ✅ Git checkpoints and reproducibility artifacts
 
 ---
+
+
+## 🛠️ Tooling Used in the Project
+
+The repository documents the actual tools used during implementation and evaluation:
+
+| Tool | Purpose |
+|---|---|
+| **Python** | Experiment scripts, corpus construction, evaluation, diagnostics |
+| **PowerShell** | Windows execution, service checks, API tests, Git workflow |
+| **Conda** | Local `agent-unirag` environment |
+| **Agent-UniRAG** | Upstream retrieval/RAG framework reproduced and extended |
+| **Elasticsearch 7.10.2** | First-stage lexical retrieval and indexing |
+| **FastAPI retrieval service** | `/retrieve/` HTTP retrieval boundary |
+| **Requests** | Python HTTP calls to the local retriever |
+| **Hugging Face Transformers** | E5 and Qwen model loading/inference |
+| **PyTorch** | CPU inference and embedding computation |
+| **multilingual-e5-large** | Dense semantic reranking |
+| **Qwen2.5-0.5B-Instruct** | Automatic decomposition pilot |
+| **MuSiQue** | 500-question multi-hop evaluation |
+| **MITRE ATT&CK / STIX 2.1** | Structured cybersecurity knowledge and relationships |
+| **Git / GitHub** | Version control and reproducibility checkpoints |
 
 # 1. Why This Project?
 
