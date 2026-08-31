@@ -46,8 +46,6 @@ The paper documents the actual project end-to-end: Agent-UniRAG retrieval reprod
 
 ## 🧭 README Diagrams
 
-These diagrams are stored as standalone SVG assets so they render directly on GitHub.
-
 ![System architecture](readme_assets/diagrams/01_system_architecture.svg)
 
 ![E5 reranking pipeline](readme_assets/diagrams/02_e5_pipeline.svg)
@@ -75,14 +73,6 @@ These diagrams are stored as standalone SVG assets so they render directly on Gi
 - ✅ UniRAG API retrieval against the cybersecurity corpus
 - ✅ Controlled 10-question cybersecurity relationship-hop evaluation
 - ✅ Git checkpoints and reproducibility artifacts
-
-### Current documentation phase
-
-- 🟡 README polishing
-- 🟡 Research-paper preparation
-- 🟡 Final presentation of results, diagrams, examples, and limitations
-
----
 
 
 ## 🛠️ Tooling Used in the Project
